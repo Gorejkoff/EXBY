@@ -478,6 +478,10 @@ body {
   text-align: right;
 }
 
+.header__element-name {
+  color: #ffffff;
+}
+
 .header__svg-fill {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -3640,7 +3644,6 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
   height: 100%;
   border-radius: 15px;
   background-color: #04001A;
-  /*  opacity: 0; */
 }
 
 .statistics__element-circle {
@@ -4298,6 +4301,11 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
           align-items: center;
   background-color: rgba(113, 39, 240, 0.5803921569);
   height: 40px;
+  -webkit-transition: -webkit-transform 0.5s ease 0s;
+  transition: -webkit-transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
 }
 
 .joinourcommuniti__share {
@@ -4477,6 +4485,10 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
 
 .footer__subscribe-input::placeholder {
   color: #7027F0;
+}
+
+.footer__subscribe-block-gradient input:-webkit-autofill {
+  color: transparent !important;
 }
 
 .footer__subscribe-check {
@@ -5675,10 +5687,6 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
             transform: translate(0, 0px);
   }
 
-  .header__paragraph-login {
-    font-size: 8px;
-  }
-
   .header__language-menu {
     bottom: 50px;
     z-index: 200;
@@ -5695,13 +5703,17 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
     font-size: 32px;
   }
 
+  .header__paragraph-login {
+    font-size: 10px;
+  }
+
   .header__right-sing {
     width: 75px;
     height: 30px;
   }
 
   .header__right-sing button {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .header__element-item {
@@ -6021,6 +6033,12 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
     margin: 0;
   }
 
+  .statistics__element-conversion img {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+
   .statistics__element-value-name-pink {
     text-align: end;
     margin-right: 10px;
@@ -6108,6 +6126,12 @@ body._touch .header__menu-open.header__menu-small .header__language-menu {
 }
 
 @media (max-width: 550px) {
+  .observer-activ .joinourcommuniti__band {
+    -webkit-transform: translate(-50%, -65px);
+        -ms-transform: translate(-50%, -65px);
+            transform: translate(-50%, -65px);
+  }
+
   .observer-activ .joinourcommuniti__oval {
     -webkit-transform: translate(0, -45px);
         -ms-transform: translate(0, -45px);
