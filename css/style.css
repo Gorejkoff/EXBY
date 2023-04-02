@@ -5957,9 +5957,7 @@ input:-webkit-autofill:active {
     display: flex;
     min-width: 0;
   }
-}
 
-@media (min-width: 766.98) {
   .product-slider__item-bg-1 {
     position: sticky;
     z-index: 5;
@@ -7096,6 +7094,7 @@ input:-webkit-autofill:active {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 5px;
   }
 
   .product-slider__image {
