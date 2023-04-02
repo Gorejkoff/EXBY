@@ -4630,7 +4630,6 @@ body.burger_active .header {
 }
 
 .exby-mission__block {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4680,14 +4679,13 @@ body.burger_active .header {
 .exby-mission__container {
   position: relative;
   z-index: 3;
-  position: relative;
   padding: 0;
   pointer-events: none;
 }
 
 .exby-mission__body {
-  position: relative;
-  width: 1188px;
+  max-width: 1188px;
+  width: 100vw;
   padding-top: 7%;
   padding-bottom: 8.8%;
 }
