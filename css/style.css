@@ -4702,11 +4702,11 @@ body.burger_active .header {
   z-index: 5;
   text-align: center;
   pointer-events: none;
+  padding: 0px 10px;
 }
 
 .exby-mission__title h1 {
   font-size: 72px;
-  font-weight: 800;
   line-height: 120%;
   margin-bottom: 15px;
 }
