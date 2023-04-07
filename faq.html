@@ -4,7 +4,7 @@
    <title>"FAQ"</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <meta name="viewport" content="width=device-width" initial-scale=1.0>
-   <link rel="stylesheet" href="css/style.min.css?_v=20230404160246">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230407122315">
 </head>
 
 <body>
@@ -291,35 +291,102 @@
          <div class="faq-help__body">
             <div class="faq-help__text">Welcome to the Adjust Help Center</div>
             <div class="faq-help__title">How can we help you?</div>
-            <form action="#" method="post" name="search_faq" id="faq_search">
-               <div class="faq-help__form-body">
-                  <div class="faq-help__button">
-                     <button type="button">
-                        <svg class="faq-help__button-img" width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <g clip-path="url(#clip0_1040_10428)">
-                              <path d="M16.4293 7.28516C11.6692 7.80223 7.97363 11.8323 7.97363 16.7293C7.97363 21.976 12.2319 26.2343 17.4786 26.2343C22.4668 26.2343 26.5578 22.3867 26.9532 17.4897M30.0252 29.2759L24.3222 23.5729" stroke="white" stroke-width="2.28119" stroke-linecap="round" stroke-linejoin="round" />
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3493 5.56625C23.4953 4.98225 24.0245 4.5625 24.6268 4.5625C25.229 4.5625 25.7583 4.98225 25.9043 5.56625L26.0685 6.22325C26.1963 6.716 26.5795 7.09925 27.0723 7.227L27.7293 7.39125C28.3133 7.53725 28.733 8.0665 28.733 8.66875C28.733 9.271 28.3133 9.80025 27.7293 9.94625L27.0723 10.1105C26.5795 10.2383 26.1963 10.6215 26.0685 11.1143L25.9043 11.7713C25.7583 12.3553 25.229 12.775 24.6268 12.775C24.0245 12.775 23.4953 12.3553 23.3493 11.7713L23.185 11.1143C23.0573 10.6215 22.674 10.2383 22.1813 10.1105L21.5243 9.94625C20.9403 9.80025 20.5205 9.271 20.5205 8.66875C20.5205 8.0665 20.9403 7.53725 21.5243 7.39125L22.1813 7.227C22.674 7.09925 23.0573 6.716 23.185 6.22325L23.3493 5.56625Z" fill="#A2A3B9" />
-                           </g>
-                           <defs>
-                              <clipPath id="clip0_1040_10428">
-                                 <rect width="36.5" height="36.5" fill="white" transform="translate(0.75)" />
-                              </clipPath>
-                           </defs>
-                        </svg>
-                     </button>
+
+            <div class="faq-help__search">
+
+               <form action="#" method="post" name="search_faq" id="faq_search">
+                  <div class="faq-help__form-body">
+                     <div class="faq-help__button">
+                        <button type="button">
+                           <svg class="faq-help__button-img" width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_1040_10428)">
+                                 <path d="M16.4293 7.28516C11.6692 7.80223 7.97363 11.8323 7.97363 16.7293C7.97363 21.976 12.2319 26.2343 17.4786 26.2343C22.4668 26.2343 26.5578 22.3867 26.9532 17.4897M30.0252 29.2759L24.3222 23.5729" stroke="white" stroke-width="2.28119" stroke-linecap="round" stroke-linejoin="round" />
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3493 5.56625C23.4953 4.98225 24.0245 4.5625 24.6268 4.5625C25.229 4.5625 25.7583 4.98225 25.9043 5.56625L26.0685 6.22325C26.1963 6.716 26.5795 7.09925 27.0723 7.227L27.7293 7.39125C28.3133 7.53725 28.733 8.0665 28.733 8.66875C28.733 9.271 28.3133 9.80025 27.7293 9.94625L27.0723 10.1105C26.5795 10.2383 26.1963 10.6215 26.0685 11.1143L25.9043 11.7713C25.7583 12.3553 25.229 12.775 24.6268 12.775C24.0245 12.775 23.4953 12.3553 23.3493 11.7713L23.185 11.1143C23.0573 10.6215 22.674 10.2383 22.1813 10.1105L21.5243 9.94625C20.9403 9.80025 20.5205 9.271 20.5205 8.66875C20.5205 8.0665 20.9403 7.53725 21.5243 7.39125L22.1813 7.227C22.674 7.09925 23.0573 6.716 23.185 6.22325L23.3493 5.56625Z" fill="#A2A3B9" />
+                              </g>
+                              <defs>
+                                 <clipPath id="clip0_1040_10428">
+                                    <rect width="36.5" height="36.5" fill="white" transform="translate(0.75)" />
+                                 </clipPath>
+                              </defs>
+                           </svg>
+                        </button>
+                     </div>
+                     <div class="faq-help__input">
+                        <input id="search" type="text" name="faq_input" placeholder="Enter a keyword to search for" autocomplete="no">
+                     </div>
+
+
+                     <div class="faq-help__button-clear">
+                        clear<button type="reset"><img src="img/faq/clear.svg" alt="img"></button>
+                     </div>
+
                   </div>
-                  <div class="faq-help__input">
-                     <input type="text" name="faq_input" placeholder="Enter a keyword to search for">
+               </form>
+
+               <div class="faq-help__result">
+                  <div class="faq-help__result-body">
+
+                     <div class="faq-help__result-block">
+                        <div class="faq-help__result-title">Project</div>
+                        <button type="button" class="faq-help__recult-point">
+                           <div class="faq-help__recult-point-text">Arweave <span>stellar siacoin</span> WAX neo </div>
+                           <div class="faq-help__recult-point-arrow">
+                              <img src="img/faq/faq_green-arrow.svg" alt="img">
+                           </div>
+                        </button>
+                        <button type="button" class="faq-help__recult-point">
+                           <div class="faq-help__recult-point-text">WAX neo polymath enjin <span>stellar siacoin</span> decentraland</div>
+                           <div class="faq-help__recult-point-arrow">
+                              <img src="img/faq/faq_green-arrow.svg" alt="img">
+                           </div>
+                        </button>
+                        <button type="button" class="faq-help__recult-point">
+                           <div class="faq-help__recult-point-text">Arweave stellar siacoin WAX neo polymath stellar <span>stellar siacoin</span></div>
+                           <div class="faq-help__recult-point-arrow">
+                              <img src="img/faq/faq_green-arrow.svg" alt="img">
+                           </div>
+                        </button>
+                     </div>
+                     <div class="faq-help__result-block">
+                        <div class="faq-help__result-title">Products</div>
+                        <button type="button" class="faq-help__recult-point">
+                           <div class="faq-help__recult-point-text">Arweave stellar siacoin <span>stellar siacoin</span></div>
+                           <div class="faq-help__recult-point-arrow">
+                              <img src="img/faq/faq_green-arrow.svg" alt="img">
+                           </div>
+                        </button>
+                     </div>
+
+                  </div>
+
+                  <div class="faq-help__panel">
+                     <div class="faq-help__panel-body">
+                        <div class="faq-help__panel-arrow-navigate">
+                           <button class="faq-help__panel-arrow-up" type="button"><img src="img/faq/faq_arrow-up.svg" alt="img"></button>
+                           <button class="faq-help__panel-arrow-down" type="button"><img src="img/faq/faq_arrow-down.svg" alt="img"></button>
+                           <div class="faq-help__panel-arrow-text">To Navigate</div>
+                        </div>
+                        <div class="faq-help__panel-arrow-select">
+                           <button class="faq-help__panel-arrow-enter"><img src="img/faq/enter.svg" alt="img"></button>
+                           <div class="faq-help__panel-arrow-text">To Select</div>
+                        </div>
+                        <div class="faq-help__panel-arrow-dismiss">
+                           <button class="faq-help__panel-arrow-esc"><img src="img/faq/esc.svg" alt="img"></button>
+                           <div class="faq-help__panel-arrow-text">To Dismiss</div>
+                        </div>
+                     </div>
                   </div>
                </div>
-            </form>
+
+            </div>
+
          </div>
       </section>
       <section class="faq-help-info">
          <div class="faq-help-info__bidy">
 
             <div class="faq-help-info__item">
-               <div class="faq-help-info__border">
+               <a href="faq_inside.html" class="faq-help-info__border">
                   <div class="faq-help-info__image">
                      <svg width="151" height="150" viewBox="0 0 151 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M41.6965 51.7578C46.8009 51.7578 50.9389 47.6198 50.9389 42.5154C50.9389 37.4109 46.8009 33.2729 41.6965 33.2729C36.5921 33.2729 32.4541 37.4109 32.4541 42.5154C32.4541 47.6198 36.5921 51.7578 41.6965 51.7578Z" stroke="white" stroke-width="5" stroke-miterlimit="10" />
@@ -346,11 +413,11 @@
                   </div>
                   <div class="faq-help-info__title">Solutions</div>
                   <div class="faq-help-info__text">Learn about all our theme products and services</div>
-               </div>
+               </a>
             </div>
 
             <div class="faq-help-info__item">
-               <div class="faq-help-info__border">
+               <a href="faq_inside.html" class="faq-help-info__border">
                   <div class="faq-help-info__image">
                      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M44.6953 40.6411L60.5136 28.2666L76.3214 40.6411" stroke="url(#paint0_linear_1086_9040)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
@@ -386,11 +453,11 @@
                   </div>
                   <div class="faq-help-info__title">Submit A Ticket</div>
                   <div class="faq-help-info__text">Contact us through a specially prepared form</div>
-               </div>
+               </a>
             </div>
 
             <div class="faq-help-info__item">
-               <div class="faq-help-info__border">
+               <a href="faq_inside.html" class="faq-help-info__border">
                   <div class="faq-help-info__image">
                      <svg width="151" height="150" viewBox="0 0 151 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M106.692 100.669H125.168C130.447 100.669 134.73 96.3858 134.73 91.1071V24.5617C134.73 19.283 130.447 15 125.168 15H80.6369C75.3582 15 71.0752 19.283 71.0752 24.5617V32.1705" stroke="url(#paint0_linear_1086_9053)" stroke-width="5" stroke-miterlimit="10" />
@@ -457,7 +524,7 @@
                   </div>
                   <div class="faq-help-info__title">My Tickets</div>
                   <div class="faq-help-info__text">Show the list of the tickets</div>
-               </div>
+               </a>
             </div>
 
          </div>
@@ -475,7 +542,7 @@
 
       <div class="faq-service__block">
 
-         <a href="#" class="faq-service__item">
+         <a href="faq_inside.html" class="faq-service__item">
             <div class="faq-service__image">
                <svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M21.4033 66.1943H36.1966" stroke="white" stroke-miterlimit="10" />
@@ -513,7 +580,7 @@
             <div class="faq-service__text">Reset Password</div>
          </a>
 
-         <a href="#" class="faq-service__item">
+         <a href="faq_inside.html" class="faq-service__item">
             <div class="faq-service__image">
                <svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M85.3513 23.7034H41.5824C37.7475 23.7034 34.6387 26.8122 34.6387 30.6471V84.9615C34.6387 88.7965 37.7475 91.9053 41.5824 91.9053H85.3513C89.1862 91.9053 92.2951 88.7965 92.2951 84.9615V30.6471C92.2951 26.8122 89.1862 23.7034 85.3513 23.7034Z" stroke="url(#paint0_linear_1086_8990)" stroke-miterlimit="10" />
@@ -543,7 +610,7 @@
             <div class="faq-service__text">Unlock Account</div>
          </a>
 
-         <a href="#" class="faq-service__item">
+         <a href="faq_inside.html" class="faq-service__item">
             <div class="faq-service__image">
                <svg width="100" height="101" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M22.4814 19.4978L55.438 41.4595L88.4015 19.4978" stroke="url(#paint0_linear_1086_9007)" stroke-linecap="round" stroke-linejoin="round" />
@@ -581,7 +648,7 @@
             <div class="faq-service__text">Change Email Address</div>
          </a>
 
-         <a href="#" class="faq-service__item">
+         <a href="faq_inside.html" class="faq-service__item">
             <div class="faq-service__image">
                <svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M61.0685 32.2477C58.7445 28.8425 54.8339 26.6099 50.4036 26.6099C43.2773 26.6099 37.499 32.3881 37.499 39.5144C37.499 46.6408 43.2773 52.419 50.4036 52.419C56.2942 52.419 61.2651 48.4732 62.8097 43.0811C63.1327 41.9507 63.3082 40.7501 63.3082 39.5144H51.6112" stroke="white" stroke-miterlimit="10" />
@@ -617,7 +684,7 @@
             <div class="faq-service__text">Reset Google Authenticator</div>
          </a>
 
-         <a href="#" class="faq-service__item">
+         <a href="faq_inside.html" class="faq-service__item">
             <div class="faq-service__image">
                <svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M33.0684 13.5438C37.1405 11.6622 41.4584 10.4756 45.8395 9.98418C50.2206 9.49271 54.7983 9.71036 59.1865 10.6442C66.734 12.259 73.9165 16.0012 79.779 21.8637C95.9624 38.0471 95.9624 64.2916 79.779 80.4749C72.9195 87.3345 64.2556 91.2873 55.3179 92.3334" stroke="url(#paint0_linear_1086_9026)" stroke-miterlimit="10" />
@@ -655,7 +722,7 @@
 
       <div class="faq-know__block">
 
-         <a href="#" class="faq-know__item">
+         <a href="faq_inside.html" class="faq-know__item">
             <div class="faq-know__icon">
                <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 30.8359C23.2843 30.8359 30 24.1202 30 15.8359C30 7.55167 23.2843 0.835938 15 0.835938C6.71573 0.835938 0 7.55167 0 15.8359C0 24.1202 6.71573 30.8359 15 30.8359Z" fill="#1E1A2D" />
@@ -668,7 +735,7 @@
             </div>
          </a>
 
-         <a href="#" class="faq-know__item">
+         <a href="faq_inside.html" class="faq-know__item">
             <div class="faq-know__icon">
                <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 30.8359C23.2843 30.8359 30 24.1202 30 15.8359C30 7.55167 23.2843 0.835938 15 0.835938C6.71573 0.835938 0 7.55167 0 15.8359C0 24.1202 6.71573 30.8359 15 30.8359Z" fill="#15161C" />
@@ -681,7 +748,7 @@
             </div>
          </a>
 
-         <a href="#" class="faq-know__item">
+         <a href="faq_inside.html" class="faq-know__item">
             <div class="faq-know__icon">
                <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 30.8359C23.2843 30.8359 30 24.1202 30 15.8359C30 7.55167 23.2843 0.835938 15 0.835938C6.71573 0.835938 0 7.55167 0 15.8359C0 24.1202 6.71573 30.8359 15 30.8359Z" fill="#1E1A2D" />
@@ -694,7 +761,7 @@
             </div>
          </a>
 
-         <a href="#" class="faq-know__item">
+         <a href="faq_inside.html" class="faq-know__item">
             <div class="faq-know__icon">
                <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 30.8359C23.2843 30.8359 30 24.1202 30 15.8359C30 7.55167 23.2843 0.835938 15 0.835938C6.71573 0.835938 0 7.55167 0 15.8359C0 24.1202 6.71573 30.8359 15 30.8359Z" fill="#1E1A2D" />
@@ -725,7 +792,7 @@
             <div class="faq-articles__lists-title">Getting started</div>
             <ul class="faq-articles__list">
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -736,7 +803,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -747,7 +814,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -758,7 +825,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -769,7 +836,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -780,7 +847,7 @@
                   </a>
                </li>
             </ul>
-            <div class="faq-articles__button btn-animation-darck"><a href="#">View All (12)</a></div>
+            <div class="faq-articles__button btn-animation-darck"><a href="faq_inside.html">View All (12)</a></div>
          </div>
 
 
@@ -788,7 +855,7 @@
             <div class="faq-articles__lists-title">General</div>
             <ul class="faq-articles__list">
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -799,7 +866,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -810,7 +877,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -821,7 +888,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -832,7 +899,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -843,7 +910,7 @@
                   </a>
                </li>
             </ul>
-            <div class="faq-articles__button btn-animation-darck"><a href="#">View All (16)</a></div>
+            <div class="faq-articles__button btn-animation-darck"><a href="faq_inside.html">View All (16)</a></div>
          </div>
 
 
@@ -851,7 +918,7 @@
             <div class="faq-articles__lists-title">Configuration</div>
             <ul class="faq-articles__list">
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -862,7 +929,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -873,7 +940,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -884,7 +951,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -895,7 +962,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -906,7 +973,7 @@
                   </a>
                </li>
             </ul>
-            <div class="faq-articles__button btn-animation-darck"><a href="#">View All (14)</a></div>
+            <div class="faq-articles__button btn-animation-darck"><a href="faq_inside.html">View All (14)</a></div>
          </div>
 
 
@@ -914,7 +981,7 @@
             <div class="faq-articles__lists-title">Deposits and withdrawals</div>
             <ul class="faq-articles__list">
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -925,7 +992,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -936,7 +1003,7 @@
                   </a>
                </li>
             </ul>
-            <div class="faq-articles__button  btn-animation-darck"><a href="#">View All (12)</a></div>
+            <div class="faq-articles__button  btn-animation-darck"><a href="faq_inside.html">View All (12)</a></div>
          </div>
 
 
@@ -944,7 +1011,7 @@
             <div class="faq-articles__lists-title">Safety and security</div>
             <ul class="faq-articles__list">
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -955,7 +1022,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -966,7 +1033,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -977,7 +1044,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -988,7 +1055,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -1006,7 +1073,7 @@
             <div class="faq-articles__lists-title">Trading</div>
             <ul class="faq-articles__list">
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -1017,7 +1084,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -1028,7 +1095,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -1039,7 +1106,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -1050,7 +1117,7 @@
                   </a>
                </li>
                <li class="faq-articles__point">
-                  <a href="#">
+                  <a href="faq_inside.html">
                      <div class="faq-articles__icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
@@ -1061,7 +1128,7 @@
                   </a>
                </li>
             </ul>
-            <div class="faq-articles__button  btn-animation-darck"><a href="#">View All (20)</a></div>
+            <div class="faq-articles__button  btn-animation-darck"><a href="faq_inside.html">View All (20)</a></div>
          </div>
 
       </div>
@@ -1104,52 +1171,52 @@
 
                <ul class="faq-payments__list">
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">Which payment methods do you accept?</div>
+                           <div class="faq-payments__list-text hover-6">Which payment methods do you accept?</div>
                         </div>
                      </a>
                   </li>
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">Multiple hoppers per account</div>
+                           <div class="faq-payments__list-text hover-6">Multiple hoppers per account</div>
                         </div>
                      </a>
                   </li>
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">I paid but nothing happened!</div>
+                           <div class="faq-payments__list-text hover-6">I paid but nothing happened!</div>
                         </div>
                      </a>
                   </li>
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">What does Cryptohopper cost?</div>
+                           <div class="faq-payments__list-text hover-6">What does Cryptohopper cost?</div>
                         </div>
                      </a>
                   </li>
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">How long will it takes after a banktransfer to actually receive the money at my account?</div>
+                           <div class="faq-payments__list-text hover-6">How long will it takes after a banktransfer to actually receive the money at my account?</div>
                         </div>
                      </a>
                   </li>
@@ -1164,12 +1231,22 @@
 
                <ul class="faq-payments__list">
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">I want a refund and I have paid with CryptoCurrency</div>
+                           <div class="faq-payments__list-text hover-6">I want a refund and I have paid with CryptoCurrency</div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="faq-payments__point">
+                     <a class="faq-payments__linck" href="faq_inside.html">
+                        <div class="faq-payments__linck-block">
+                           <div class="faq-payments__icon">
+                              <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
+                           </div>
+                           <div class="faq-payments__list-text hover-6">Are the subscriptions refundable?</div>
                         </div>
                      </a>
                   </li>
@@ -1179,17 +1256,9 @@
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">Are the subscriptions refundable?</div>
-                        </div>
-                     </a>
-                  </li>
-                  <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
-                        <div class="faq-payments__linck-block">
-                           <div class="faq-payments__icon">
-                              <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
+                           <div class="faq-payments__list-text hover-6">
+                              I want a refund and I have paid with Paypal
                            </div>
-                           <div class="faq-payments__list-text">I want a refund and I have paid with Paypal</div>
                         </div>
                      </a>
                   </li>
@@ -1203,22 +1272,22 @@
 
                <ul class="faq-payments__list">
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">How can I cancel my subscription?</div>
+                           <div class="faq-payments__list-text hover-6">How can I cancel my subscription?</div>
                         </div>
                      </a>
                   </li>
                   <li class="faq-payments__point">
-                     <a class="faq-payments__linck" href="#">
+                     <a class="faq-payments__linck" href="faq_inside.html">
                         <div class="faq-payments__linck-block">
                            <div class="faq-payments__icon">
                               <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                            </div>
-                           <div class="faq-payments__list-text">Cancelling your Hopper/Signal subscription</div>
+                           <div class="faq-payments__list-text hover-6">Cancelling your Hopper/Signal ubscription</div>
                         </div>
                      </a>
                   </li>
@@ -1378,11 +1447,11 @@
             <div class=" footer__menu-column">
                <div class="footer__menu-column-title">Community</div>
                <ul class="footer__menu-column-list">
-                  <li class="footer__menu-column-item"><a class="hover-6" href="#">Facebook</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
-                  <li class="footer__menu-column-item"><a class="hover-6" href="#">Telegram</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
-                  <li class="footer__menu-column-item"><a class="hover-6" href="#">Telegram chat</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
-                  <li class="footer__menu-column-item"><a class="hover-6" href="#">Twitter</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
-                  <li class="footer__menu-column-item"><a class="hover-6" href="#">Youtube</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
+                  <li class="footer__menu-column-item facebook-color"><a class="hover-6" href="#">Facebook</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
+                  <li class="footer__menu-column-item telegram-color"><a class="hover-6" href="#">Telegram</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
+                  <li class="footer__menu-column-item telegram-color"><a class="hover-6" href="#">Telegram chat</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
+                  <li class="footer__menu-column-item twitter-color"><a class="hover-6" href="#">Twitter</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
+                  <li class="footer__menu-column-item youtube-color"><a class="hover-6" href="#">Youtube</a> <span><img class="footer__menu-column-item-arrow" src="img/footer__image/arrow__top-right.svg" alt="img"></span></li>
                </ul>
             </div>
 
@@ -1436,8 +1505,8 @@
    </div>
 </footer>
    </div>
-   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230404160246"></script>
-   <script src="js/app.min.js?_v=20230404160246"></script>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230407122315"></script>
+   <script src="js/app.min.js?_v=20230407122315"></script>
 
 </body>
 
