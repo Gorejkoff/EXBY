@@ -4,7 +4,7 @@
    <title>"FAQ inside"</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <meta name="viewport" content="width=device-width" initial-scale=1.0>
-   <link rel="stylesheet" href="css/style.min.css?_v=20230407122315">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230409120143">
 </head>
 
 <body>
@@ -243,7 +243,7 @@
 
          <div class="header__right">
             <div class="header__right-login ">
-               <button type="button ">
+               <a href="sign_in.html" type="button ">
                   <div class="header__paragraph  header__paragraph-login ">
 
                      <span class="header__right-login-text-shell">
@@ -257,10 +257,10 @@
                         </span>
 
                   </div>
-               </button>
+               </a>
             </div>
             <div class="header__right-sing btn-animation-violet">
-               <button type="button"><span>Sing up</span></button>
+               <a href="sign_up.html" type="button"><span>Sign up</span></a>
             </div>
          </div>
 
@@ -277,19 +277,23 @@
 
          <section class="faq__inside">
 
+
+
+
+
    <section class="faq-in">
       <div class="faq-in__menu">
          <div class="faq-in__menu-body">
             <ul class="faq-in__menu-lists">
 
                <li class="faq-in__menu-item faq-point-active">
-                  <button class="faq-in__menu-item-button" type="button" data-cont="faq_content_1">
+                  <button class="faq-in__menu-item-button faq-button-active-backround" type="button" data-cont="faq_content_1">
                      <div class="faq-in__menu-icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
                      <div class="faq-in__menu-text">Ren decred cardano</div>
                      <div class="faq-in__menu-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        <img class="faq-in__menu-arrow-icon" src="img/faq/faq_arrow-down.svg" alt="img">
                      </div>
                   </button>
                </li>
@@ -301,7 +305,7 @@
                      </div>
                      <div class="faq-in__menu-text">Harmony siacoin secret ren</div>
                      <div class="faq-in__menu-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        <img class="faq-in__menu-arrow-icon" src="img/faq/faq_arrow-down.svg" alt="img">
                      </div>
                   </button>
                   <ul class="faq-in__menu-sublists">
@@ -313,13 +317,13 @@
                </li>
 
                <li class="faq-in__menu-item">
-                  <button class="faq-in__menu-item-button" type="button">
+                  <button class="faq-in__menu-item-button" type="button" data-cont="faq_content_6">
                      <div class="faq-in__menu-icon">
                         <img src="img/faq/faq_Icon-cirсle.svg" alt="img">
                      </div>
                      <div class="faq-in__menu-text">Amp golem ipsum livepeer</div>
                      <div class="faq-in__menu-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        <img class="faq-in__menu-arrow-icon" src="img/faq/faq_arrow-down.svg" alt="img">
                      </div>
                   </button>
                </li>
@@ -331,7 +335,7 @@
                      </div>
                      <div class="faq-in__menu-text">Litecoin celo elrond</div>
                      <div class="faq-in__menu-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        <img class="faq-in__menu-arrow-icon" src="img/faq/faq_arrow-down.svg" alt="img">
                      </div>
                   </button>
                </li>
@@ -343,7 +347,7 @@
                      </div>
                      <div class="faq-in__menu-text">Revain polkadot aave hedera</div>
                      <div class="faq-in__menu-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        <img class="faq-in__menu-arrow-icon" src="img/faq/faq_arrow-down.svg" alt="img">
                      </div>
                   </button>
                </li>
@@ -355,7 +359,7 @@
                      </div>
                      <div class="faq-in__menu-text">Kusama chainlink terra</div>
                      <div class="faq-in__menu-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        <img class="faq-in__menu-arrow-icon" src="img/faq/faq_arrow-down.svg" alt="img">
                      </div>
                   </button>
                </li>
@@ -366,124 +370,258 @@
       </div>
    </section>
 
-   <section class="faq__content" id="faq_content_1">
+   <section>
 
-      <div class="faq-pach">
-         <div class="faq-pach__body">
-            <a href="#" class="faq-pach__icon">
-               <img src="img/faq/faq_icon-1.svg" alt="img">
-            </a>
-            <a href="#" class="faq-pach__point">
-               <div class="faq-pach__text">General information</div>
-            </a>
+      <section class="faq__content content-active" id="faq_content_1">
+
+         <div class="faq-pach pach-active" data-pach="faq_content_1">
+            <div class="faq-pach__body">
+               <a href="faq.html" class="faq-pach__icon">
+                  <img src="img/faq/faq_icon-1.svg" alt="img">
+               </a>
+               <button type="button" class="faq-pach__point" data-eventuse="faq_content_1">
+                  <div class="faq-pach__text">General information</div>
+               </button>
+            </div>
          </div>
-      </div>
 
-      <div class="faq-general__title">General information</div>
-      <div class="faq-general__text">In this section you will find answers to frequently asked questions about our service and terms of cooperation.</div>
-      <div class="faq-general__information">
-         <ul class="faq-general__information-lists">
-            <li class="faq-general__information-item">
-               <button class="faq-general__information-button">
-                  <div class="faq-general__information-title">
-                     <div class="faq-general__information-title-text">Arweave stellar siacoin WAX neo polymath enjin stellar livepeer EOS decentraland.</div>
-                     <div class="faq-general__information-title-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+         <div class="faq-general__title">General information</div>
+         <div class="faq-general__text">In this section you will find answers to frequently asked questions about our service and terms of cooperation.</div>
+         <div class="faq-general__information">
+            <ul class="faq-general__information-lists">
+               <li class="faq-general__information-item">
+                  <button class="faq-general__information-button">
+                     <div class="faq-general__information-title">
+                        <div class="faq-general__information-title-text">Arweave stellar siacoin WAX neo polymath enjin stellar livepeer EOS decentraland.</div>
+                        <div class="faq-general__information-title-arrow">
+                           <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        </div>
                      </div>
-                  </div>
-                  <div class="faq-general__information-text">Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                     Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
-                  </div>
-               </button>
-            </li>
-            <li class="faq-general__information-item">
-               <button class="faq-general__information-button">
-                  <div class="faq-general__information-title">
-                     <div class="faq-general__information-title-text">Ethereum aave chiliz algorand ankr. Celsius stellar hedera amp amp kusama. Crypto.</div>
-                     <div class="faq-general__information-title-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                     <div class="faq-general__information-text">Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
+                        Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
                      </div>
-                  </div>
-                  <div class="faq-general__information-text">
-                     Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                     Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
-                     Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                  </div>
-               </button>
-            </li>
-            <li class="faq-general__information-item">
-               <button class="faq-general__information-button">
-                  <div class="faq-general__information-title">
-                     <div class="faq-general__information-title-text">Tether THETA celsius nexo chainlink tether tether litecoin cardano kusama. Tezos harmony.</div>
-                     <div class="faq-general__information-title-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                  </button>
+               </li>
+               <li class="faq-general__information-item">
+                  <button class="faq-general__information-button">
+                     <div class="faq-general__information-title">
+                        <div class="faq-general__information-title-text">Ethereum aave chiliz algorand ankr. Celsius stellar hedera amp amp kusama. Crypto.</div>
+                        <div class="faq-general__information-title-arrow">
+                           <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        </div>
                      </div>
-                  </div>
-                  <div class="faq-general__information-text">
-                     Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                     Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
-                  </div>
-               </button>
-            </li>
-            <li class="faq-general__information-item">
-               <button class="faq-general__information-button">
-                  <div class="faq-general__information-title">
-                     <div class="faq-general__information-title-text">Maker siacoin serum bancor quant helium siacoin velas monero. Tezos TRON ox algorand kava.</div>
-                     <div class="faq-general__information-title-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                     <div class="faq-general__information-text">
+                        Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
+                        Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
+                        Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
                      </div>
-                  </div>
-                  <div class="faq-general__information-text">
-                     Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                     Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
-                  </div>
-               </button>
-            </li>
-            <li class="faq-general__information-item">
-               <button class="faq-general__information-button">
-                  <div class="faq-general__information-title">
-                     <div class="faq-general__information-title-text">Serum fantom neo flow vechain terraUSD. Secret WAX EOS ren bitcoin stacks. Dogecoin.</div>
-                     <div class="faq-general__information-title-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                  </button>
+               </li>
+               <li class="faq-general__information-item">
+                  <button class="faq-general__information-button">
+                     <div class="faq-general__information-title">
+                        <div class="faq-general__information-title-text">Tether THETA celsius nexo chainlink tether tether litecoin cardano kusama. Tezos harmony.</div>
+                        <div class="faq-general__information-title-arrow">
+                           <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        </div>
                      </div>
-                  </div>
-                  <div class="faq-general__information-text">
-                     Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                     Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
-                  </div>
-               </button>
-            </li>
-            <li class="faq-general__information-item">
-               <button class="faq-general__information-button">
-                  <div class="faq-general__information-title">
-                     <div class="faq-general__information-title-text">Holo helium PancakeSwap quant horizen shiba-inu. PancakeSwap terraUSD tether uniswap.</div>
-                     <div class="faq-general__information-title-arrow">
-                        <img src="img/faq/faq_arrow-down.svg" alt="img">
+                     <div class="faq-general__information-text">
+                        Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
+                        Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
                      </div>
-                  </div>
-                  <div class="faq-general__information-text">
-                     Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
-                     Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
-                  </div>
-               </button>
-            </li>
-         </ul>
-      </div>
+                  </button>
+               </li>
+               <li class="faq-general__information-item">
+                  <button class="faq-general__information-button">
+                     <div class="faq-general__information-title">
+                        <div class="faq-general__information-title-text">Maker siacoin serum bancor quant helium siacoin velas monero. Tezos TRON ox algorand kava.</div>
+                        <div class="faq-general__information-title-arrow">
+                           <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        </div>
+                     </div>
+                     <div class="faq-general__information-text">
+                        Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
+                        Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
+                     </div>
+                  </button>
+               </li>
+               <li class="faq-general__information-item">
+                  <button class="faq-general__information-button">
+                     <div class="faq-general__information-title">
+                        <div class="faq-general__information-title-text">Serum fantom neo flow vechain terraUSD. Secret WAX EOS ren bitcoin stacks. Dogecoin.</div>
+                        <div class="faq-general__information-title-arrow">
+                           <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        </div>
+                     </div>
+                     <div class="faq-general__information-text">
+                        Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
+                        Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
+                     </div>
+                  </button>
+               </li>
+               <li class="faq-general__information-item">
+                  <button class="faq-general__information-button">
+                     <div class="faq-general__information-title">
+                        <div class="faq-general__information-title-text">Holo helium PancakeSwap quant horizen shiba-inu. PancakeSwap terraUSD tether uniswap.</div>
+                        <div class="faq-general__information-title-arrow">
+                           <img src="img/faq/faq_arrow-down.svg" alt="img">
+                        </div>
+                     </div>
+                     <div class="faq-general__information-text">
+                        Audius fantom dai ankr enjin fantom audius. Cosmos uniswap kava cardano binance. Siacoin audius enjin algorand stacks. Digibyte velas ox amp uniswap cosmos terra hive. Hive kadena waves USD ox decentraland aave. Algorand polkadot zcash ethereum avalanche nexo chiliz dai vechain stacks. Hedera ipsum chiliz helium avalanche. Shiba-inu monero ren siacoin stacks stellar IOTA. USD ox golem algorand litecoin. Cardano stellar harmony secret bitcoin amp BitTorrent amp. Klaytn aave velas bancor stellar monero cosmos zcash litecoin litecoin.
+                        Compound amp chainlink neo filecoin uniswap fantom digibyte enjin. Decred telcoin litecoin siacoin aave shiba-inu. Monero ox filecoin kadena kusama serum. Holo bitcoin chiliz crypto chiliz crypto velas terraUSD. Solana enjin terraUSD livepeer ren. Velas crypto litecoin bitcoin decentraland algorand horizen dogecoin enjin kusama. Hedera decentraland serum kava arweave. Bancor zcash helium loopring ankr ankr polkadot dai BitTorrent.
+                     </div>
+                  </button>
+               </li>
+            </ul>
+         </div>
 
-      <div class="faq-hint">
-         <div class="faq-hint__body">
-            <div class="faq-hint__title">
-               <div class="faq-hint__title-icon">
-                  <img src="img/faq/faq_icon-2.svg" alt="img">
+         <div class="faq-hint">
+            <div class="faq-hint__body">
+               <div class="faq-hint__title">
+                  <div class="faq-hint__title-icon">
+                     <img src="img/faq/faq_icon-2.svg" alt="img">
+                  </div>
+                  <div class="faq-hint__title-text">HINT</div>
                </div>
-               <div class="faq-hint__title-text">HINT</div>
-            </div>
-            <div class="faq-hint__text">Didn't find the answer to your question?</div>
-            <div class="faq-hint__subtext">
-               Write to our support team: <a class="hover-6" href="#">support@exby.io</a>
+               <div class="faq-hint__text">Didn't find the answer to your question?</div>
+               <div class="faq-hint__subtext">
+                  Write to our support team: <a class="hover-6" href="#">support@exby.io</a>
+               </div>
             </div>
          </div>
-      </div>
+
+      </section>
+
+      <section class="faq__content" id="faq_content_2">
+
+         <section class="faq-uniswap__shell">
+
+            <section class="faq-uniswap__block">
+
+               <div class="faq-pach" data-pach="faq_content_2">
+                  <div class="faq-pach__body">
+                     <a href="faq.html" class="faq-pach__icon">
+                        <img src="img/faq/faq_icon-1.svg" alt="img">
+                     </a>
+                     <button type="button" class="faq-pach__point" data-eventuse="faq_content_1">
+                        <div class="faq-pach__text">General information</div>
+                     </button>
+
+                     <button type="button" class="faq-pach__point" data-eventuse="faq_content_2">
+                        <div class="faq-pach__text">Uniswap aave</div>
+                     </button>
+                  </div>
+               </div>
+
+               <div class="faq-uniswap">
+                  <div class="faq-uniswap__body">
+                     <div class="faq-uniswap__title">Uniswap aave</div>
+                     <div class="faq-uniswap__text">
+                        <p>Vechain horizen waves vechain ankr neo celo gala loopring kusama. Golem chainlink hive WAX decred chiliz. Velas hedera polygon BitTorrent digibyte fantom dogecoin amp bitcoin chiliz. Bancor solana waves polygon vechain vechain IOTA vechain. Fantom flow waves PancakeSwap terra arweave quant. Dai avalanche neo.</p>
+                        <p>Ren livepeer hedera terraUSD tezos. Monero enjin telcoin loopring ipsum BitTorrent telcoin fantom chiliz. Harmony waves polkadot horizen zcash. Cardano arweave litecoin ox audius. Crypto bitcoin harmony fantom ankr bitcoin fantom ren. Kava gala polymath hedera fantom kadena avalanche USD bancor monero. Polymath.</p>
+                        <p>TerraUSD harmony avalanche PancakeSwap telcoin hedera chainlink fantom waves algorand. Gala polygon quant waves tezos polymath polygon. Kadena litecoin shiba-inu uniswap livepeer shiba-inu aave solana revain. Vechain avalanche dogecoin digibyte telcoin compound nexo. Kadena siacoin BitTorrent zcash revain litecoin stacks ipsum algorand. USD TRON arweave dash binance filecoin. Chiliz filecoin cardano ethereum digibyte shiba-inu. Kadena.</p>
+                        <p>Audius litecoin dash golem BitTorrent celsius. Algorand URL: <a class="hover-6" href="#">https://exby.com/v1/currency</a></p>
+                     </div>
+                     <h3 class="faq-uniswap__h3">Audius secret</h3>
+                     <h4 class="faq-uniswap__h4">Kava fantom waves gala secret</h4>
+                     <div class="faq-uniswap__text faq-uniswap__margin-left">Amp tether stellar USD velas PancakeSwap polkadot velas.</div>
+                     <h4 class="faq-uniswap__h4 step-1 faq-nav-object" id="uniswap-step-1">Step 1. Aave litecoin avalanche<a class="uniswap-link" href="#uniswap-step-1">¶</a></h4>
+                     <div class="faq-uniswap__text faq-uniswap__margin-left">Hedera audius siacoin neo bancor. ECash compound chainlink EOS cosmos dogecoin ethereum cosmos.</div>
+                     <div class="faq-uniswap__text-block">
+                        <p><span class="faq-uniswap__violet">ECash He</span> Crypto ankr kusama monero polymath terraUSD neo. Ankr harmony hedera loopring arweave.<br> Maker tether stellar IOTA holo polkadot dai. XRP vechain ankr nexo ox zcash aave tether ICON kusama.</p>
+                        <p><span class="faq-uniswap__violet">Адрес сайта</span>Zcash serum fantom tezos algorand nexo THETA.</p>
+                        <p><span class="faq-uniswap__violet">Hedera audius</span>Neo velas dai kadena filecoin chiliz algorand compound. EOS arweave eCash.</p>
+                        <p><span class="faq-uniswap__violet">Polygon dash.</span>Chiliz terraUSD loopring chainlink bancor dash. Decentraland velas terra IOTA <br> PancakeSwap holo celo USD. Horizen terraUSD terraUSD ICON waves dogecoin tezos elrond.</p>
+                     </div>
+                     <div class="faq-uniswap__image">
+                        <picture><source srcset="img/faq/faq_uniswap-1.webp" type="image/webp"><img src="img/faq/faq_uniswap-1.png" alt="img"></picture>
+                     </div>
+                     <div class="faq-uniswap__text-center">Avalanche TRON</div>
+                     <h4 class="faq-uniswap__h4 step-2 faq-nav-object" id="uniswap-step-2">Step 2. IOTA serum ox ox tether USD. Kadena<a class="uniswap-link" href="#uniswap-step-2">¶</a></h4>
+                     <div class="faq-uniswap__text-bold faq-uniswap__margin-left">USD holo chiliz tezos harmony compound quant celsius quant. USD bitcoin ankr kava THETA dai kava helium.</div>
+                     <h3 class="faq-uniswap__h3">Compound kadena</h3>
+                     <h4 class="faq-uniswap__h4 step-3 faq-nav-object" id="uniswap-step-3">Step 1. Waves ox kava aave eCash ox zcash ren<a class="uniswap-link" href="#uniswap-step-3">¶</a></h4>
+                     <div class="faq-uniswap__text faq-uniswap__margin-left">Dogecoin ox bitcoin tezos holo algorand BitTorrent digibyte enjin.</div>
+                     <div class="faq-uniswap__image">
+                        <picture><source srcset="img/faq/faq_uniswap-2.webp" type="image/webp"><img src="img/faq/faq_uniswap-2.png" alt="img"></picture>
+                     </div>
+                     <div class="faq-uniswap__text-center">Dogecoin ox bitcoin</div>
+                     <h4 class="faq-uniswap__h4 step-4 faq-nav-object" id="uniswap-step-4">Step 2. Compound stacks stacks enjin ethereum polygon.<a class="uniswap-link" href="#uniswap-step-4">¶</a></h4>
+                     <div class="faq-uniswap__text faq-uniswap__margin-left">Loopring EOS elrond kusama celo WAX dai decentraland. Litecoin.</div>
+
+                     <div class="faq-uniswap__image-block">
+                        <div class="faq-uniswap__text faq-uniswap__tag-margin">Arweave hedera holo gala tether algorand. Uniswap algorand hive zcash livepeer ankr zcash stacks. Revain.</div>
+                        <div class="faq-uniswap__tag"> &lthead>&lt/head> </div>
+                        <div class="faq-uniswap__image">
+                           <picture><source srcset="img/faq/faq_uniswap-3.webp" type="image/webp"><img src="img/faq/faq_uniswap-3.png" alt="img"></picture>
+                        </div>
+                        <div class="faq-uniswap__text-center">Dogecoin ox bitcoin</div>
+                        <div class="faq-uniswap__text-or">ИЛИ</div>
+                        <div class="faq-uniswap__text">Gala chainlink compound litecoin XRP amp eCash avalanche.</div>
+                     </div>
+                     <h4 class="faq-uniswap__h4 step-5 faq-nav-object" id="uniswap-step-5">Step 3. Chainlink velas hive<a class="uniswap-link" href="#uniswap-step-5">¶</a></h4>
+                     <div class="faq-uniswap__text faq-uniswap__margin-left">Dai ICON dash TRON helium. Tether horizen chainlink velas WAX. Tether dash dai.</div>
+                     <div class="faq-uniswap__image-block">
+                        <div class="faq-uniswap__image">
+                           <picture><source srcset="img/faq/faq_uniswap-3.webp" type="image/webp"><img src="img/faq/faq_uniswap-3.png" alt="img"></picture>
+                        </div>
+                        <div class="faq-uniswap__text-center">Dogecoin ox bitcoin</div>
+                        <div class="faq-uniswap__text-bold">Tezos compound chainlink BitTorrent dai eCash crypto solana harmony kava. Binance TRON eCash.</div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="faq-hint">
+                  <div class="faq-hint__body">
+                     <div class="faq-hint__title">
+                        <div class="faq-hint__title-icon">
+                           <img src="img/faq/faq_icon-2.svg" alt="img">
+                        </div>
+                        <div class="faq-hint__title-text">HINT</div>
+                     </div>
+                     <div class="faq-hint__text">Didn't find the answer to your question?</div>
+                     <div class="faq-hint__subtext">
+                        Write to our support team: <a class="hover-6" href="#">support@exby.io</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="faq-nav">
+               <div class="faq-nav__body">
+                  <div class="faq-nav__block">
+                     <div class="faq-nav__title">Audius secret</div>
+                     <ul class="faq-nav__lists">
+                        <li class="faq-nav__list " data-step="step-1">
+                           <a href="#"><span class="hover-line">Step 1. Aave litecoin avalanche</span></a>
+                        </li>
+                        <li class="faq-nav__list" data-step="step-2">
+                           <a href="#"><span class="hover-line">Step 2. IOTA serum ox ox tether USD. Kadena</span></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="faq-nav__block">
+                     <div class="faq-nav__title">Compound kadena</div>
+                     <ul class="faq-nav__lists">
+                        <li class="faq-nav__list" data-step="step-3">
+                           <a href="#"><span class="hover-line">Step 1. Waves ox kava aave eCash ox zcash ren</span></a>
+                        </li>
+                        <li class="faq-nav__list" data-step="step-4">
+                           <a href="#"><span class="hover-line">Step 2. Compound stacks stacks enjin ethereum polygon.</span></a>
+                        </li>
+                        <li class="faq-nav__list" data-step="step-5">
+                           <a href="#"><span class="hover-line">Step 3. Chainlink velas hive</span></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+
+         </section>
+
+      </section>
+
 
       <div class="faq-transition">
          <div class="faq-transition__body">
@@ -509,161 +647,6 @@
       </div>
 
    </section>
-
-   <section class="faq__content" id="faq_content_2">
-
-      <section class="faq-uniswap__shell">
-
-         <section class="faq-uniswap__block">
-
-            <div class="faq-pach">
-               <div class="faq-pach__body">
-                  <a href="#" class="faq-pach__icon">
-                     <img src="img/faq/faq_icon-1.svg" alt="img">
-                  </a>
-                  <a href="#" class="faq-pach__point">
-                     <div class="faq-pach__text">General information</div>
-                  </a>
-
-                  <a href="#" class="faq-pach__point">
-                     <div class="faq-pach__text">Uniswap aave</div>
-                  </a>
-               </div>
-            </div>
-
-            <div class="faq-uniswap">
-               <div class="faq-uniswap__body">
-                  <div class="faq-uniswap__title">Uniswap aave</div>
-                  <div class="faq-uniswap__text">
-                     <p>Vechain horizen waves vechain ankr neo celo gala loopring kusama. Golem chainlink hive WAX decred chiliz. Velas hedera polygon BitTorrent digibyte fantom dogecoin amp bitcoin chiliz. Bancor solana waves polygon vechain vechain IOTA vechain. Fantom flow waves PancakeSwap terra arweave quant. Dai avalanche neo.</p>
-                     <p>Ren livepeer hedera terraUSD tezos. Monero enjin telcoin loopring ipsum BitTorrent telcoin fantom chiliz. Harmony waves polkadot horizen zcash. Cardano arweave litecoin ox audius. Crypto bitcoin harmony fantom ankr bitcoin fantom ren. Kava gala polymath hedera fantom kadena avalanche USD bancor monero. Polymath.</p>
-                     <p>TerraUSD harmony avalanche PancakeSwap telcoin hedera chainlink fantom waves algorand. Gala polygon quant waves tezos polymath polygon. Kadena litecoin shiba-inu uniswap livepeer shiba-inu aave solana revain. Vechain avalanche dogecoin digibyte telcoin compound nexo. Kadena siacoin BitTorrent zcash revain litecoin stacks ipsum algorand. USD TRON arweave dash binance filecoin. Chiliz filecoin cardano ethereum digibyte shiba-inu. Kadena.</p>
-                     <p>Audius litecoin dash golem BitTorrent celsius. Algorand URL: <a class="hover-6" href="#">https://exby.com/v1/currency</a></p>
-                  </div>
-                  <h3 class="faq-uniswap__h3">Audius secret</h3>
-                  <h4 class="faq-uniswap__h4">Kava fantom waves gala secret</h4>
-                  <div class="faq-uniswap__text faq-uniswap__margin-left">Amp tether stellar USD velas PancakeSwap polkadot velas.</div>
-                  <h4 class="faq-uniswap__h4 step-1">Step 1. Aave litecoin avalanche</h4>
-                  <div class="faq-uniswap__text faq-uniswap__margin-left">Hedera audius siacoin neo bancor. ECash compound chainlink EOS cosmos dogecoin ethereum cosmos.</div>
-                  <div class="faq-uniswap__text-block">
-                     <p><span class="faq-uniswap__violet">ECash He</span> Crypto ankr kusama monero polymath terraUSD neo. Ankr harmony hedera loopring arweave.<br> Maker tether stellar IOTA holo polkadot dai. XRP vechain ankr nexo ox zcash aave tether ICON kusama.</p>
-                     <p><span class="faq-uniswap__violet">Адрес сайта</span>Zcash serum fantom tezos algorand nexo THETA.</p>
-                     <p><span class="faq-uniswap__violet">Hedera audius</span>Neo velas dai kadena filecoin chiliz algorand compound. EOS arweave eCash.</p>
-                     <p><span class="faq-uniswap__violet">Polygon dash.</span>Chiliz terraUSD loopring chainlink bancor dash. Decentraland velas terra IOTA <br> PancakeSwap holo celo USD. Horizen terraUSD terraUSD ICON waves dogecoin tezos elrond.</p>
-                  </div>
-                  <div class="faq-uniswap__image">
-                     <picture><source srcset="img/faq/faq_uniswap-1.webp" type="image/webp"><img src="img/faq/faq_uniswap-1.png" alt="img"></picture>
-                  </div>
-                  <div class="faq-uniswap__text-center">Avalanche TRON</div>
-                  <h4 class="faq-uniswap__h4 step-2">Step 2. IOTA serum ox ox tether USD. Kadena</h4>
-                  <div class="faq-uniswap__text-bold faq-uniswap__margin-left">USD holo chiliz tezos harmony compound quant celsius quant. USD bitcoin ankr kava THETA dai kava helium.</div>
-                  <h3 class="faq-uniswap__h3">Compound kadena</h3>
-                  <h4 class="faq-uniswap__h4 step-3">Step 1. Waves ox kava aave eCash ox zcash ren</h4>
-                  <div class="faq-uniswap__text faq-uniswap__margin-left">Dogecoin ox bitcoin tezos holo algorand BitTorrent digibyte enjin.</div>
-                  <div class="faq-uniswap__image">
-                     <picture><source srcset="img/faq/faq_uniswap-2.webp" type="image/webp"><img src="img/faq/faq_uniswap-2.png" alt="img"></picture>
-                  </div>
-                  <div class="faq-uniswap__text-center">Dogecoin ox bitcoin</div>
-                  <h4 class="faq-uniswap__h4 step-4">Step 2. Compound stacks stacks enjin ethereum polygon.</h4>
-                  <div class="faq-uniswap__text faq-uniswap__margin-left">Loopring EOS elrond kusama celo WAX dai decentraland. Litecoin.</div>
-
-                  <div class="faq-uniswap__image-block">
-                     <div class="faq-uniswap__text faq-uniswap__tag-margin">Arweave hedera holo gala tether algorand. Uniswap algorand hive zcash livepeer ankr zcash stacks. Revain.</div>
-                     <div class="faq-uniswap__tag"> &lthead>&lt/head> </div>
-                     <div class="faq-uniswap__image">
-                        <picture><source srcset="img/faq/faq_uniswap-3.webp" type="image/webp"><img src="img/faq/faq_uniswap-3.png" alt="img"></picture>
-                     </div>
-                     <div class="faq-uniswap__text-center">Dogecoin ox bitcoin</div>
-                     <div class="faq-uniswap__text-or">ИЛИ</div>
-                     <div class="faq-uniswap__text">Gala chainlink compound litecoin XRP amp eCash avalanche.</div>
-                  </div>
-                  <h4 class="faq-uniswap__h4 step-5">Step 3. Chainlink velas hive</h4>
-                  <div class="faq-uniswap__text faq-uniswap__margin-left">Dai ICON dash TRON helium. Tether horizen chainlink velas WAX. Tether dash dai.</div>
-                  <div class="faq-uniswap__image-block">
-                     <div class="faq-uniswap__image">
-                        <picture><source srcset="img/faq/faq_uniswap-3.webp" type="image/webp"><img src="img/faq/faq_uniswap-3.png" alt="img"></picture>
-                     </div>
-                     <div class="faq-uniswap__text-center">Dogecoin ox bitcoin</div>
-                     <div class="faq-uniswap__text-bold">Tezos compound chainlink BitTorrent dai eCash crypto solana harmony kava. Binance TRON eCash.</div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="faq-hint">
-               <div class="faq-hint__body">
-                  <div class="faq-hint__title">
-                     <div class="faq-hint__title-icon">
-                        <img src="img/faq/faq_icon-2.svg" alt="img">
-                     </div>
-                     <div class="faq-hint__title-text">HINT</div>
-                  </div>
-                  <div class="faq-hint__text">Didn't find the answer to your question?</div>
-                  <div class="faq-hint__subtext">
-                     Write to our support team: <a class="hover-6" href="#">support@exby.io</a>
-                  </div>
-               </div>
-            </div>
-
-            <div class="faq-transition">
-               <div class="faq-transition__body">
-                  <button class="faq-transition__button faq-transition__prev">
-                     <div class="faq-transition__button-title">Previous page</div>
-                     <div class="faq-transition__button-item">
-                        <div class="faq-transition__button-icon">
-                           <img src="img/faq/faq_arrow-left.svg" alt="img">
-                        </div>
-                        <div class="faq-transition__button-text">Get started</div>
-                     </div>
-                  </button>
-                  <button class="faq-transition__button faq-transition__next">
-                     <div class="faq-transition__button-title">Next page</div>
-                     <div class="faq-transition__button-item">
-                        <div class="faq-transition__button-text">Get started</div>
-                        <div class="faq-transition__button-icon">
-                           <img src="img/faq/faq_arrow-right.svg" alt="img">
-                        </div>
-                     </div>
-                  </button>
-               </div>
-            </div>
-
-         </section>
-
-         <section class="faq-nav">
-            <div class="faq-nav__body">
-               <div class="faq-nav__block">
-                  <div class="faq-nav__title">Audius secret</div>
-                  <ul class="faq-nav__lists">
-                     <li class="faq-nav__list" data-step=".step-1">
-                        <a href="#">Step 1. Aave litecoin avalanche</a>
-                     </li>
-                     <li class="faq-nav__list" data-step=".step-2">
-                        <a href="#">Step 2. IOTA serum ox ox tether USD. Kadena</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="faq-nav__block">
-                  <div class="faq-nav__title">Compound kadena</div>
-                  <ul class="faq-nav__lists">
-                     <li class="faq-nav__list" data-step=".step-3">
-                        <a href="#">Step 1. Waves ox kava aave eCash ox zcash ren</a>
-                     </li>
-                     <li class="faq-nav__list" data-step=".step-4">
-                        <a href="#">Step 2. Compound stacks stacks enjin ethereum polygon.</a>
-                     </li>
-                     <li class="faq-nav__list" data-step=".step-5">
-                        <a href="#">Step 3. Chainlink velas hive</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </section>
-
-      </section>
-
-   </section>
-
-
 
 </section>
 
@@ -887,8 +870,8 @@
    </div>
 </footer>
    </div>
-   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230407122315"></script>
-   <script src="js/app.min.js?_v=20230407122315"></script>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230409120143"></script>
+   <script src="js/app.min.js?_v=20230409120143"></script>
 
 </body>
 
