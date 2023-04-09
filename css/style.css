@@ -277,6 +277,7 @@ body {
 
 .header__body {
   position: relative;
+  z-index: 11;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,6 +329,8 @@ body {
 }
 
 .header__logo {
+  position: relative;
+  z-index: 107;
   margin-left: 10px;
 }
 
@@ -386,6 +389,20 @@ body {
 .header .header__menu-small .header__menu-arrow svg {
   -webkit-transform: rotate3d(1, 0, 0, 180deg);
           transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.header .header__language-button-top::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: 106;
+  height: 60px;
+  width: 300px;
+  background-color: #190141;
 }
 
 .header__language-menu {
@@ -8449,6 +8466,10 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 
   .header__menu-arrow {
     margin-left: 5px;
+  }
+
+  .header .header__language-button-top::before {
+    height: 50px;
   }
 
   .header__lists {
