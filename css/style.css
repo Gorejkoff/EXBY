@@ -1355,6 +1355,8 @@ body.burger_active .header {
   font-size: 12px;
   color: #ffffff;
   line-height: 130%;
+  overflow: hidden;
+  letter-spacing: 1px;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -1362,7 +1364,7 @@ body.burger_active .header {
 
 .anchor__list:hover a {
   color: #7027F0;
-  font-weight: 900;
+  text-shadow: 0.5px 0px 0px #7027F0, -0.5px 0px 0px #7027F0;
 }
 
 .use-cookies {
@@ -1593,7 +1595,7 @@ body.burger_active .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 70px);
   width: 100%;
   color: #68738D;
   font-size: 13px;
@@ -1636,7 +1638,7 @@ body.burger_active .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .sing-up__logo-top {
@@ -1924,10 +1926,7 @@ body.burger_active .header {
 }
 
 .sign-header .header {
-  position: absolute;
   z-index: 500;
-  top: -200%;
-  left: 0;
 }
 
 .title {
@@ -3424,6 +3423,9 @@ body.burger_active .header {
      -moz-column-gap: 30px;
           column-gap: 30px;
   margin-bottom: 25px;
+  /*     @media (max-width:580px) {
+     width: 100%;
+  } */
 }
 
 .trading-simulator__strategy-title {
@@ -7392,9 +7394,6 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 .auto-arbitrage__shell {
   padding: 2px;
   margin-bottom: 20px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 20%;
-          flex: 0 1 20%;
   background: -webkit-gradient(linear, left top, left bottom, from(#6C01F5), to(#1C0146));
   background: -o-linear-gradient(#6C01F5, #1C0146);
   background: linear-gradient(#6C01F5, #1C0146);
@@ -7404,14 +7403,32 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 }
 
 .auto-arbitrage__border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  min-height: 100%;
   border-radius: 16px;
   background: #04001A;
-  width: 100%;
 }
 
-.auto-arbitrage__image img {
+.auto-arbitrage__image {
+  height: 100%;
+}
+
+.auto-arbitrage__image svg {
   border-radius: 16px;
-  max-height: 318px;
+  width: 100%;
 }
 
 .auto-arbitrage__sign {
@@ -7420,6 +7437,7 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 
 .auto-arbitrage__subtitle {
   margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
 .auto-arbitrage__title {
@@ -7444,18 +7462,93 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
           box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
   padding: 2px;
+  margin-bottom: 24px;
 }
 
 .auto-arbitrage__border-single {
   border-radius: 16px;
   background: #04001A;
   width: 100%;
-  max-height: 100%;
 }
 
-.auto-arbitrage__image-single img {
+.auto-arbitrage__image-single svg {
   width: 100%;
   border-radius: 16px;
+}
+
+.arbitrage-1 {
+  padding-top: 10%;
+}
+
+.manual-arbitrage__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.manual-arbitrage__border {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.manual-arbitrage__border:first-child {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: -1px;
+}
+
+.manual-arbitrage__border:last-child {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.manual-arbitrage__image svg {
+  width: 100%;
+  border-radius: 16px;
+  height: 440px;
+}
+
+.manual-width {
+  max-width: 994px;
+  margin: 0 auto;
+}
+
+.farming-arbitrage__block {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  max-width: 848px;
+}
+
+.farming-arbitrage__shell {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.farming-arbitrage__shell:first-child {
+  border-radius: 16px;
+  border: 1px solid #2B303B;
+  background: #04001A;
+}
+
+.farming-img {
+  height: 100%;
+  width: 100%;
 }
 
 .footer {
@@ -8646,6 +8739,10 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
         -ms-flex: 0 0 300px;
             flex: 0 0 300px;
   }
+
+  .manual-arbitrage__image svg {
+    height: 36.3636vw;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -8720,12 +8817,6 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-}
-
-@media (max-width: 1040px) {
-  .auto-arbitrage__image img {
-    max-height: 30.577vw;
   }
 }
 
@@ -9799,9 +9890,23 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     display: block;
   }
 
-  .auto-arbitrage__image img {
-    max-height: 100%;
+  .manual-arbitrage__block {
+    display: block;
+  }
+
+  .manual-arbitrage__border {
     width: 100%;
+    display: block;
+  }
+
+  .manual-arbitrage__image svg {
+    margin-top: 20px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .farming-arbitrage__block {
+    display: block;
   }
 
   .footer__subscribe {
@@ -9913,8 +10018,11 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 }
 
 @media (max-width: 580px) {
+  .trading-simulator__header-left {
+    width: 100%;
+  }
+
   .trading-simulator__strategy-menu-body {
-    left: -25px;
     min-width: 300px;
     font-size: 10px;
   }
@@ -10142,7 +10250,6 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 @media (max-width: 360px) {
   .anchor__list a {
     padding: 4px 5px;
-    font-size: 10px;
   }
 }
 
