@@ -7897,6 +7897,7 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 }
 
 .pricing-exby__center-button {
+  display: block;
   padding: 10px;
   font-weight: 900;
   color: #7034F0;
@@ -8019,6 +8020,44 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   background-color: #1C1E25;
 }
 
+.pricing-exby__right-icon-check {
+  color: #ffffff;
+}
+
+.pricing-exby__right-text-check {
+  color: #ffffff;
+}
+
+.pricing-exby__green {
+  position: relative;
+}
+
+.pricing-exby__green div:first-child {
+  display: none;
+}
+
+.pricing-exby__green div {
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  color: #15161C;
+}
+
+.pricing-exby__green::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #7CE2A5;
+}
+
 .pcoduct-top__content.documents_style {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 45%;
@@ -8050,7 +8089,7 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   border-radius: 60px;
 }
 
-.documents__imade svg {
+.documents__imade img {
   width: 605px;
   height: 100%;
 }
@@ -8695,6 +8734,11 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     height: 300%;
   }
 
+  .btn-animation-green span {
+    position: relative;
+    z-index: 302;
+  }
+
   .btn-animation-white {
     position: relative;
     -webkit-transition: all 0.5s;
@@ -8817,6 +8861,11 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   .btn-animation-transparent:hover::before {
     width: 200%;
     height: 300%;
+  }
+
+  .btn-animation-transparent span {
+    position: relative;
+    z-index: 302;
   }
 
   .btn-animation-darck {
@@ -9405,7 +9454,7 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     height: 36.3636vw;
   }
 
-  .documents__imade svg {
+  .documents__imade img {
     width: 50vw;
   }
 }
@@ -9709,7 +9758,7 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     display: block;
   }
 
-  .documents__imade svg {
+  .documents__imade img {
     width: 100%;
   }
 
@@ -10625,26 +10674,24 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     display: block;
   }
 
+  .pricing-exby__scroll {
+    overflow-x: auto;
+  }
+
   .pricing-exby__body {
-    display: block;
+    min-width: 900px;
   }
 
   .pricing-exby__left {
-    margin: 0 auto 50px;
-    border-radius: 20px;
+    max-width: 300px;
   }
 
   .pricing-exby__center {
-    margin: 0 auto 50px;
-  }
-
-  .pricing-exby__center-body {
-    border-radius: 20px;
+    max-width: 300px;
   }
 
   .pricing-exby__right {
-    margin: 0 auto 50px;
-    border-radius: 20px;
+    max-width: 300px;
   }
 
   .documents__imade {
