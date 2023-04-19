@@ -1,0 +1,17 @@
+<svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="6" y="6" width="44" height="45" rx="22" fill="#7027F0"/>
+<path d="M30.2947 32.107C31.109 32.107 31.7691 31.4469 31.7691 30.6326C31.7691 29.8183 31.109 29.1582 30.2947 29.1582C29.4804 29.1582 28.8203 29.8183 28.8203 30.6326C28.8203 31.4469 29.4804 32.107 30.2947 32.107Z" fill="white" fill-opacity="0.9"/>
+<path d="M29.3183 27.1719H39.4286V34.0932H29.3183C28.9653 34.0932 28.6158 34.0236 28.2897 33.8883C27.9636 33.7531 27.6673 33.5549 27.4179 33.3051C27.1685 33.0553 26.9707 32.7587 26.836 32.4324C26.7013 32.1061 26.6323 31.7565 26.6328 31.4034V29.8553C26.6334 29.1434 26.9166 28.4609 27.4201 27.9577C27.9237 27.4545 28.6065 27.1719 29.3183 27.1719V27.1719Z" stroke="white" stroke-opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.5879 22.7233L22.513 18.3738L32.8444 22.4937" stroke="white" stroke-opacity="0.9" stroke-miterlimit="10"/>
+<path d="M36.8005 24.7264C36.8005 24.1678 36.5786 23.632 36.1836 23.237C35.7886 22.842 35.2529 22.6201 34.6942 22.6201H18.6864C18.1278 22.6201 17.592 22.842 17.197 23.237C16.802 23.632 16.5801 24.1678 16.5801 24.7264V36.5217C16.5801 37.0803 16.802 37.6161 17.197 38.0111C17.592 38.4061 18.1278 38.628 18.6864 38.628H34.6942H37.3747V36.5217" stroke="url(#paint0_radial_1905_15800)" stroke-miterlimit="10"/>
+<rect x="3" y="3" width="50" height="51" rx="25" stroke="#0F0327" stroke-opacity="0.2" stroke-width="6"/>
+<defs>
+<radialGradient id="paint0_radial_1905_15800" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(38.1247 37.8763) rotate(-177.852) scale(60.0422 13.5813)">
+<stop stop-color="#190042" stop-opacity="0"/>
+<stop offset="0.177195" stop-color="#7142DC" stop-opacity="0.39"/>
+<stop offset="0.458256" stop-color="#6884E8"/>
+<stop offset="0.765625" stop-color="#6A9DF1"/>
+<stop offset="1" stop-color="#3585E1"/>
+</radialGradient>
+</defs>
+</svg>
