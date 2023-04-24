@@ -4,7 +4,7 @@
    <title>"BLOG"</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <meta name="viewport" content="width=device-width" initial-scale=1.0>
-   <link rel="stylesheet" href="css/style.min.css?_v=20230421191930">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230424110402">
 </head>
 
 <body>
@@ -53,6 +53,8 @@
                      <li class="header__language-list" data-language="Deutsch"><a href="#"><span><img src="img/flag/Deutsch.svg" alt="img"></span><span>Deutsch</span></a></li>
                      <li class="header__language-list" data-language="日本語"><a href="#"><span><img src="img/flag/Japan.svg" alt="img"></span><span>日本語</span></a></li>
                      <li class="header__language-list" data-language="中文"><a href="#"><span><img src="img/flag/China.svg" alt="img"></span><span>中文</span></a></li>
+                     <li class="header__language-list" data-language="English"><a href="#"><span><img src="img/flag/English.svg" alt="img"></span><span>English</span></a></li>
+                     <li class="header__language-list" data-language="Français"><a href="#"><span><img src="img/flag/Francais.svg" alt="img"></span><span>Français</span></a></li>
                   </ul>
                </div>
 
@@ -274,156 +276,164 @@
 </header>
       <main>
 
-         <article class="blog">
-            <div class="blog__container">
-               <section class="blog__stories">
-                  <div class="blog__stories-subtitle text-gradient">Customer stories</div>
-                  <h1 class="blog__stories-title">Facet.ai rolled out a brand‑new collaborative product within a few weeks</h1>
-                  <div class="blog__stories-text">By trusting Liveblocks to build its collaborative infrastructure, Facet.ai can focus on the unique and differentiating aspects of their products.</div>
-               </section>
+         <article class="blog-top">
+            <div class="blog-top__container">
+               <div class="blog-top__body">
 
-
-               <section class="blog__content">
-                  <div class="blog__time"><time class="blog__time-text" datetime="2023-0-10">January 10th, 2023</time></div>
-                  <div class="blog__avatar">
-                     <div class="blog__avatar-image">
-                        <picture><source srcset="img/blog/blog-avatar-1.webp" type="image/webp"><img src="img/blog/blog-avatar-1.png" alt="img"></picture>
+                  <div class="blog-top__block">
+                     <div class="blog-top__content">
+                        <div class="blog-top__subtite text-gradient">Blog</div>
+                        <h1 class="blog-top__title">Keep up to date with the latest news about Exby</h1>
+                        <div class="blog-top__tabs">
+                           <ul class="blog-top__lists">
+                              <li>
+                                 <button class="blog-top__list blog_tab_active" data-blog="blog_tab-1" type="button"><span class="hover-line">All</span></button>
+                              </li>
+                              <li>
+                                 <button class="blog-top__list" data-blog="blog_tab-2" type="button"><span class="hover-line">Engineering</span></button>
+                              </li>
+                              <li>
+                                 <button class="blog-top__list" data-blog="blog_tab-3" type="button"><span class="hover-line">Company</span></button>
+                              </li>
+                              <li>
+                                 <button class="blog-top__list" data-blog="blog_tab-4" type="button"><span class="hover-line">Product</span></button>
+                              </li>
+                           </ul>
+                        </div>
                      </div>
-                     <div class="blog__avatar-block">
-                        <div class="blog__avatar-name">Adrien Gaudon</div>
-                        <address class="blog__avatar-mail"><a href="#"><span class="hover-6">@adigau31</span></a></address>
+                  </div>
+
+                  <div class="blog-top__block">
+                     <div class="blog-top__image">
+                        <picture><source srcset="img/pictures/icon-usd-2x.webp" type="image/webp"><img src="img/pictures/icon-usd-2x.png" alt="img"></picture>
                      </div>
                   </div>
-                  <div class="blog__image">
-                     <picture><source srcset="img/blog/blog-img-1.webp" type="image/webp"><img src="img/blog/blog-img-1.png" alt="img"></picture>
-                  </div>
-                  <div class="blog__schell">
-                     <aside class="blog__network">
-                        <div class="blog__network-body">
-                           <a href="#" class="blog__network-icon">
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_1781_14912)">
-                                    <path d="M18.7166 5.00003C18.0749 5.2917 17.3832 5.48337 16.6666 5.57503C17.3999 5.13337 17.9666 4.43337 18.2332 3.5917C17.5416 4.00837 16.7749 4.30004 15.9666 4.4667C15.3082 3.75004 14.3832 3.33337 13.3332 3.33337C11.3749 3.33337 9.77487 4.93337 9.77487 6.90837C9.77487 7.1917 9.8082 7.4667 9.86653 7.72503C6.89987 7.57503 4.2582 6.15003 2.49987 3.9917C2.19153 4.5167 2.01653 5.13337 2.01653 5.78337C2.01653 7.02503 2.64153 8.12503 3.6082 8.75003C3.01653 8.75003 2.46653 8.58337 1.9832 8.33337V8.35837C1.9832 10.0917 3.21653 11.5417 4.84987 11.8667C4.32547 12.0102 3.77495 12.0302 3.24153 11.925C3.46787 12.6354 3.91115 13.257 4.50905 13.7025C5.10695 14.1479 5.82941 14.3948 6.57487 14.4084C5.31123 15.4087 3.74486 15.9495 2.1332 15.9417C1.84987 15.9417 1.56653 15.925 1.2832 15.8917C2.86653 16.9084 4.74987 17.5 6.76653 17.5C13.3332 17.5 16.9416 12.05 16.9416 7.32503C16.9416 7.1667 16.9416 7.0167 16.9332 6.85837C17.6332 6.35837 18.2332 5.72503 18.7166 5.00003Z" fill="#A2A3B9" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_1781_14912">
-                                       <rect width="20" height="20" fill="white" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-                           </a>
-                           <a href="#" class="blog__network-icon">
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.26105 11.5825L14.1943 15.8243C14.8686 16.1808 15.3589 16.0026 15.5306 15.2184L17.9456 4.19204C18.1907 3.22961 17.5655 2.80187 16.9158 3.08703L2.74455 8.38632C1.7761 8.76654 1.78836 9.28933 2.57293 9.51509L6.21382 10.6201L14.6357 5.47527C15.0279 5.23764 15.3957 5.36834 15.1015 5.62974L8.26105 11.5825Z" fill="#A2A3B9" />
-                              </svg>
-                           </a>
-                           <a href="#" class="blog__network-icon">
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_1781_14918)">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 10.0447C2 14.022 4.88867 17.3293 8.66667 18V12.222H6.66667V10H8.66667V8.222C8.66667 6.222 9.95533 5.11133 11.778 5.11133C12.3553 5.11133 12.978 5.2 13.5553 5.28867V7.33333H12.5333C11.5553 7.33333 11.3333 7.822 11.3333 8.44467V10H13.4667L13.1113 12.222H11.3333V18C15.1113 17.3293 18 14.0227 18 10.0447C18 5.62 14.4 2 10 2C5.6 2 2 5.62 2 10.0447Z" fill="#A2A3B9" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_1781_14918">
-                                       <rect width="20" height="20" fill="white" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-                           </a>
-                           <a href="#" class="blog__network-icon">
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M14 12.7199C13.4933 12.7199 13.04 12.9199 12.6933 13.2333L7.94 10.4666C7.97333 10.3133 8 10.1599 8 9.99992C8 9.83992 7.97333 9.68658 7.94 9.53325L12.64 6.79325C13 7.12659 13.4733 7.33325 14 7.33325C15.1067 7.33325 16 6.43992 16 5.33325C16 4.22659 15.1067 3.33325 14 3.33325C12.8933 3.33325 12 4.22659 12 5.33325C12 5.49325 12.0267 5.64659 12.06 5.79992L7.36 8.53992C7 8.20658 6.52667 7.99992 6 7.99992C4.89333 7.99992 4 8.89325 4 9.99992C4 11.1066 4.89333 11.9999 6 11.9999C6.52667 11.9999 7 11.7933 7.36 11.4599L12.1067 14.2333C12.0733 14.3733 12.0533 14.5199 12.0533 14.6666C12.0533 15.7399 12.9267 16.6133 14 16.6133C15.0733 16.6133 15.9467 15.7399 15.9467 14.6666C15.9467 13.5933 15.0733 12.7199 14 12.7199Z" fill="#A2A3B9" />
-                              </svg>
-                           </a>
-                        </div>
-                     </aside>
 
-                     <section class="blog__innercontainer">
-                        <h2 class="blog__title">Challenge</h2>
-                        <p class="blog__text"><a href="#"><span class="hover-line-green">Facet.ai</span></a> is an AI-powered image editor. They are creating the first generation of AI-human visual creative tools, combining the latest advances in machine perception with innovative graphics research to make digital creation more vibrant and intuitive for digital artists.</p>
-                        <p class="blog__text">As an image editing company, Facet.ai has always been focused on providing powerful tools and features to help their users be more creative and efficient. As they grew and collected user feedback, they realized the importance of providing a collaborative product experience. They received numerous requests from their users for the ability to work on images together in real time, share their work, and receive feedback on their projects. Knowing this would significantly benefit their users, they decided to take action.</p>
-                        <div class="blog__img">
-                           <picture><source srcset="img/blog/blog-img-2.webp" type="image/webp"><img src="img/blog/blog-img-2.png" alt="img"></picture>
-                        </div>
-                        <p class="blog__text">Kyle Schaeffer is an Engineering Manager with an impressive 3-and-a-half-year tenure at <a href="#"><span class="hover-line-green">Facet.ai.</span></a> Even though recent development in building a collaborative infrastructure proved to be much more complex than expected, he was determined to show how collaboration could add real value to the company and its users. Facet holds an annual Creative Week to promote creativity and collaboration, where developers are given one week to work on whatever projects they please.</p>
-                        <h2 class="blog__title">Solution</h2>
-                        <p class="blog__text">Encouraged by this past discovery, they decided to use Liveblocks as their platform and named their project <a href="#"><span class="hover-line-green">Prompt.ist.</span></a></p>
-                        <figure>
-                           <blockquote cite="#" class="blog__quote">
-                              <div class="blog__quote-text">“Gala elrond WAX decentraland secret ren. Flow flow ankr digibyte chiliz bitcoin eCash ox. TRON nexo neo hedera XRP vechain dai secret gala revain. Livepeer ren polygon polygon waves helium klaytn decentraland PancakeSwap. Neo terraUSD amp terraUSD waves uniswap compound ICON nexo. Helium fantom PancakeSwap flow hive WAX stellar WAX WAX celsius. Solana ren EOS zcash ren siacoin livepeer litecoin velas tether. Stacks digibyte digibyte ICON flow ren. ICON stellar quant hedera cardano.”
-                              </div>
-                              <figcaption class="blog__quote-signature">
-                                 <div class="blog__quote-avatar">
-                                    <picture><source srcset="img/blog/blog-avatar-2.webp" type="image/webp"><img src="img/blog/blog-avatar-2.png" alt="Фотография Kyle Schaeffer"></picture>
-                                 </div>
-                                 <div class="blog__quote-block">
-                                    <div class="blog__quote-avatar-name">Kyle Schaeffer</div>
-                                    <div class="blog__quote-avatar-text">Engineering Manager at Facet.ai</div>
-                                 </div>
-                              </figcaption>
-                           </blockquote>
-                        </figure>
-                        <p class="blog__text"><a href="#"><span class="hover-line-green">Prompt.ist</span></a> uses React, so they installed the <a href="#"><span class="hover-line-green">@liveblocks/react</span></a> package to implement real-time collaboration without adding too many dependencies to their codebase. With the Storage block, they can synchronize the document’s state between users to enable them to view and edit the same data in real time.</p>
-                        <p class="blog__text">In only three days of work, they reached the first phase of their project with a Minimal Viable Product and took the remaining two days to refine the user experience even further.</p>
+               </div>
 
+               <div class="blog-top__blur blog-top__violet"></div>
+               <div class="blog-top__blur blog-top__center"></div>
+               <div class="blog-top__blur blog-top__green"></div>
 
-                        <div class="blog__slider">
-                           <div class="blog__slider-body">
-                              <div class="blog__slider-item">
-                                 <picture><source srcset="img/blog/image-slider.webp" type="image/webp"><img src="img/blog/image-slider.png" alt="img"></picture>
-                                 <div class="blog__slider-item-text">You can see who is working at the same time, and is working at the same time, and is working at the same time, and is working at the same time, and is working at the same time, and is working at the same time, and what they're doing.</div>
-                              </div>
-                              <div class="blog__slider-item">
-                                 <picture><source srcset="img/blog/image-slider.webp" type="image/webp"><img src="img/blog/image-slider.png" alt="img"></picture>
-                                 <div class="blog__slider-item-text">You can see who is working at the same time, and what they're doing.</div>
-                              </div>
-                              <div class="blog__slider-item">
-                                 <picture><source srcset="img/blog/image-slider.webp" type="image/webp"><img src="img/blog/image-slider.png" alt="img"></picture>
-                                 <div class="blog__slider-item-text">You can see who is working at the same time, and what they're doing.</div>
-                              </div>
-                           </div>
-                           <div class="blog__slider-buttons">
-                              <div class="blog__slider-svg-prev">
-                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.98688 13.6562L7.94898 12.7023L4.60836 9.35293H14V7.95957H4.60836L7.94898 4.61552L6.98688 3.65625L2 8.65625L6.98688 13.6562Z" fill="#68738D" />
-                                 </svg>
-                              </div>
-                              <div class="blog__slider-svg-next">
-                                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1781_14973)">
-                                       <path d="M9.013 13.6562L8.051 12.7022L11.391 9.35225H2V7.96025H11.392L8.05 4.61625L9.013 3.65625L14 8.65625L9.013 13.6562Z" fill="#68738D" />
-                                    </g>
-                                    <defs>
-                                       <clipPath id="clip0_1781_14973">
-                                          <rect width="16" height="16" fill="white" transform="translate(0 0.65625)" />
-                                       </clipPath>
-                                    </defs>
-                                 </svg>
-                              </div>
-                           </div>
-
-                        </div>
-
-
-
-                        <h2 class="blog__title">Results</h2>
-                        <p class="blog__text">They achieved remarkable success and <a href="#"><span class="hover-line-green">Prompt.ist</span></a>, their ambitious attempt to bring together text-to-image AI and collaboration, was voted “most creative” project during Facet Creative Week. Blown away by the result, the company decided to take the extra step and invest a few additional weeks of their team’s time in perfecting the experience and making it production-ready.</p>
-                        <p class="blog__text">Through an instantaneous and delightful user experience, <a href="#"><span class="hover-line-green">Prompt.ist</span></a> has since become one of the most promising applications for AI art generation, with thousands of people using it since its launch in October 2022. When the team made <a href="#"><span class="hover-line-green">Prompt.ist</span></a> available to the public, everyone at Facet.ai quickly realized the power of collaboration and its impact on users. People need inspiration and seeing what others are doing next to them fuels their creativity. They noticed a lot of people forking the work of others to make it better, to take it a step further.</p>
-
-
-                        <section class="blog__video">
-                           <!--  <video  src="" poster="img/news_archive/video-poster.png" controls></video> -->
-                           <iframe src="https://www.youtube.com/embed/KS7SmtHeL7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </section>
-
-                     </section>
-                  </div>
-               </section>
 
             </div>
          </article>
 
-
-         <section class="news-archive">
+         <section class="tab_blog blog_tab-1">
+            <article class="popular">
+   <div class="popular__container">
+      <h2 class="popular__maintitle">Popular right now <span>"All"</span></h2>
+      <div class="popular__bigblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_1.webp" type="image/webp"><img src="img/blog/popular_img_1.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_2.webp" type="image/webp"><img src="img/blog/popular_img_2.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+      <div class="popular__smallblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+   </div>
+</article>
+            <section class="news-archive">
    <div class="news-archive__container">
 
       <div class="news-archive__block">
@@ -434,74 +444,685 @@
       <div class="news-archive__body">
          <div class="news-archive__wrapper">
             <article class="news-archive__item">
-               <a href="#" class="news-archive__border">
+               <div class="news-archive__border">
                   <div class="news-archive__img">
                      <picture><source srcset="img/news_archive/news-img-1.webp" type="image/webp"><img src="img/news_archive/news-img-1.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
                   </div>
                   <div class="news-archive__content">
                      <time class="news-archive__time" datetime="2022-06-16">June 16, 2022</time>
                      <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
                      <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
                   </div>
-               </a>
+               </div>
             </article>
 
             <article class="news-archive__item">
-               <a href="#" class="news-archive__border">
+               <div class="news-archive__border">
                   <div class="news-archive__img">
                      <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+
                   </div>
                   <div class="news-archive__content">
                      <time datetime="2022-06-16">June 16, 2022</time>
                      <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
                      <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
                   </div>
-               </a>
+               </div>
             </article>
 
             <article class="news-archive__item">
-               <a href="#" class="news-archive__border">
+               <div class="news-archive__border">
                   <div class="news-archive__img">
                      <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
                   </div>
                   <div class="news-archive__content">
                      <time datetime="2022-06-16">June 16, 2022</time>
                      <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
                      <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
                   </div>
-               </a>
+               </div>
             </article>
 
             <article class="news-archive__item">
-               <a href="#" class="news-archive__border">
+               <div class="news-archive__border">
                   <div class="news-archive__img">
                      <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
                   </div>
                   <div class="news-archive__content">
                      <time datetime="2022-06-16">June 16, 2022</time>
                      <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
                      <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
                   </div>
-               </a>
+               </div>
             </article>
 
             <article class="news-archive__item">
-               <a href="#" class="news-archive__border">
+               <div class="news-archive__border">
                   <div class="news-archive__img">
                      <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
                   </div>
                   <div class="news-archive__content">
                      <time datetime="2022-06-16">June 16, 2022</time>
                      <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
                      <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
                   </div>
-               </a>
+               </div>
             </article>
 
          </div>
       </div>
    </div>
 </section>
+         </section>
+
+         <section class="tab_blog blog_tab-2">
+            <article class="popular">
+   <div class="popular__container">
+      <h2 class="popular__maintitle">Popular right now <span>"Engineering"</span></h2>
+      <div class="popular__bigblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_1.webp" type="image/webp"><img src="img/blog/popular_img_1.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_2.webp" type="image/webp"><img src="img/blog/popular_img_2.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+      <div class="popular__smallblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+   </div>
+</article>
+            <section class="news-archive">
+   <div class="news-archive__container">
+
+      <div class="news-archive__block">
+         <h2 class="news-archive__block-title">News Archive</h2>
+         <div class="news-archive__block-subtitle">All the old news of the project is collected here</div>
+      </div>
+
+      <div class="news-archive__body">
+         <div class="news-archive__wrapper">
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-1.webp" type="image/webp"><img src="img/news_archive/news-img-1.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time class="news-archive__time" datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+         </div>
+      </div>
+   </div>
+</section>
+         </section>
+
+         <section class="tab_blog blog_tab-3">
+            <article class="popular">
+   <div class="popular__container">
+      <h2 class="popular__maintitle">Popular right now <span>"Company"</span></h2>
+      <div class="popular__bigblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_1.webp" type="image/webp"><img src="img/blog/popular_img_1.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_2.webp" type="image/webp"><img src="img/blog/popular_img_2.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+      <div class="popular__smallblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+   </div>
+</article>
+            <section class="news-archive">
+   <div class="news-archive__container">
+
+      <div class="news-archive__block">
+         <h2 class="news-archive__block-title">News Archive</h2>
+         <div class="news-archive__block-subtitle">All the old news of the project is collected here</div>
+      </div>
+
+      <div class="news-archive__body">
+         <div class="news-archive__wrapper">
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-1.webp" type="image/webp"><img src="img/news_archive/news-img-1.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time class="news-archive__time" datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+         </div>
+      </div>
+   </div>
+</section>
+         </section>
+
+         <section class="tab_blog blog_tab-4">
+            <article class="popular">
+   <div class="popular__container">
+      <h2 class="popular__maintitle">Popular right now <span>"Product"</span></h2>
+      <div class="popular__bigblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_1.webp" type="image/webp"><img src="img/blog/popular_img_1.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_2.webp" type="image/webp"><img src="img/blog/popular_img_2.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+      <div class="popular__smallblock">
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_3.webp" type="image/webp"><img src="img/blog/popular_img_3.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+         <article class="popular__item">
+            <div class="popular__border">
+               <div class="popular__img">
+                  <picture><source srcset="img/blog/popular_img_4.webp" type="image/webp"><img src="img/blog/popular_img_4.png" alt="img"></picture>
+                  <a href="blog_page.html" class="popular__reed btn-animation-violet "><span>Read more</span></a>
+               </div>
+               <div class="popular__content">
+                  <time class="popular__time" datetime="2022-06-16">June 16, 2022</time>
+                  <h3 class="popular__title">Vitae nibh urna tempus, gravida varius massa. A nunc lectus.</h3>
+                  <div class="popular__text">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
+               </div>
+            </div>
+         </article>
+      </div>
+   </div>
+</article>
+            <section class="news-archive">
+   <div class="news-archive__container">
+
+      <div class="news-archive__block">
+         <h2 class="news-archive__block-title">News Archive</h2>
+         <div class="news-archive__block-subtitle">All the old news of the project is collected here</div>
+      </div>
+
+      <div class="news-archive__body">
+         <div class="news-archive__wrapper">
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-1.webp" type="image/webp"><img src="img/news_archive/news-img-1.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time class="news-archive__time" datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-2.webp" type="image/webp"><img src="img/news_archive/news-img-2.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+            <article class="news-archive__item">
+               <div class="news-archive__border">
+                  <div class="news-archive__img">
+                     <picture><source srcset="img/news_archive/news-img-3.webp" type="image/webp"><img src="img/news_archive/news-img-3.png" alt="img"></picture>
+                     <a href="blog_page.html" class="news-archive__reed btn-animation-violet "><span>Read more</span></a>
+                  </div>
+                  <div class="news-archive__content">
+                     <time datetime="2022-06-16">June 16, 2022</time>
+                     <h3 class="news-archive__title">Rhoncus proin cras pellentesque cum bibendum</h3>
+                     <div class="news-archive__text">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
+                  </div>
+               </div>
+            </article>
+
+         </div>
+      </div>
+   </div>
+</section>
+         </section>
+
 
          <!-- Join Our Communit -->
          <section class="joinourcommuniti observer">
@@ -689,6 +1310,8 @@
                         <li class="header__language-list" data-language="Deutsch"><a href="#"><span><img src="img/flag/Deutsch.svg" alt="img"></span><span>Deutsch</span></a></li>
                         <li class="header__language-list" data-language="日本語"><a href="#"><span><img src="img/flag/Japan.svg" alt="img"></span><span>日本語</span></a></li>
                         <li class="header__language-list" data-language="中文"><a href="#"><span><img src="img/flag/China.svg" alt="img"></span><span>中文</span></a></li>
+                        <li class="header__language-list" data-language="English"><a href="#"><span><img src="img/flag/English.svg" alt="img"></span><span>English</span></a></li>
+                        <li class="header__language-list" data-language="Français"><a href="#"><span><img src="img/flag/Francais.svg" alt="img"></span><span>Français</span></a></li>
                      </ul>
                   </div>
 
@@ -707,8 +1330,8 @@
    </div>
 </footer>
    </div>
-   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230421191930"></script>
-   <script src="js/app.min.js?_v=20230421191930"></script>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230424110402"></script>
+   <script src="js/app.min.js?_v=20230424110402"></script>
 
 </body>
 
