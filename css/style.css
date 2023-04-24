@@ -9295,6 +9295,10 @@ a.img-link:hover {
   color: #ffffff;
 }
 
+.tab_blog {
+  display: none;
+}
+
 .blog {
   margin: 70px 0px;
 }
