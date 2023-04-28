@@ -9955,11 +9955,10 @@ a.img-link:hover {
 }
 .demo-lists__linck {
   margin-bottom: 10px;
-  color: #666699;
+  color: transparent;
   line-height: 120%;
-  opacity: 0;
-  transition: color 0.3s, opacity 0.3s;
-  will-change: color, opacity;
+  transition: color 0.3s;
+  will-change: color;
 }
 @media (max-height: 899.98px) {
   .demo-lists__linck {
@@ -9969,11 +9968,6 @@ a.img-link:hover {
 
 .wrapper.demo {
   padding-top: 10px;
-  /*    .header__language-button {
-     @media (max-width:766.98px) {
-        margin-bottom: 0px;
-     }
-  } */
 }
 .wrapper.demo .header__body {
   background-color: transparent;
