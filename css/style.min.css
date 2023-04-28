@@ -9924,7 +9924,7 @@ a.img-link:hover {
   }
 }
 
-@media (max-height: 719.98px) {
+@media (max-height: 719.98px) and (orientation: landscape) {
   .demo__shell {
     display: flex;
     justify-content: space-around;
@@ -9932,7 +9932,7 @@ a.img-link:hover {
   }
 }
 
-@media (max-height: 719.98px) {
+@media (max-height: 719.98px) and (orientation: landscape) {
   .demo-lists {
     flex: 0 0 50%;
   }
@@ -9947,21 +9947,22 @@ a.img-link:hover {
     column-gap: 9.7520661157vw;
   }
 }
-@media (max-width: 766.98px) or (max-height: 719.98px) {
+@media (max-width: 766.98px), (max-height: 719.98px) and (orientation: landscape) {
   .demo-lists__body {
     display: block;
     text-align: center;
   }
 }
 .demo-lists__linck {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #666699;
+  line-height: 120%;
   opacity: 0;
   transition: color 0.3s, opacity 0.3s;
 }
 @media (max-height: 899.98px) {
   .demo-lists__linck {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 
