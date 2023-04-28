@@ -9959,6 +9959,7 @@ a.img-link:hover {
   line-height: 120%;
   opacity: 0;
   transition: color 0.3s, opacity 0.3s;
+  will-change: color, opacity;
 }
 @media (max-height: 899.98px) {
   .demo-lists__linck {
