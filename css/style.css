@@ -9887,6 +9887,11 @@ a.img-link:hover {
   font-size: 20px;
   color: #ffffff;
 }
+@media (max-height: 899.98px) {
+  .main.demo .screen__text {
+    font-size: 16px;
+  }
+}
 .main.demo .screen__namber {
   font-size: 64px;
   font-weight: 800;
@@ -9900,6 +9905,13 @@ a.img-link:hover {
 @media (max-height: 899.98px) {
   .main.demo .screen__namber {
     font-size: 45px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-height: 719.98px) {
+  .main.demo .screen__namber {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
 }
 @media (max-height: 899.98px) {
@@ -9909,7 +9921,9 @@ a.img-link:hover {
 }
 @media (max-height: 719.98px) {
   .main.demo .screen__net-down {
-    bottom: -120px;
+    bottom: -30px;
+    padding-bottom: -100px;
+    height: 150px;
   }
 }
 .main.demo .screen__body {
@@ -9918,9 +9932,9 @@ a.img-link:hover {
 }
 @media (max-height: 719.98px) {
   .main.demo .screen__body {
-    flex: 0 0 50%;
+    flex: 0 0 60%;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: -100px;
   }
 }
 
@@ -9934,7 +9948,7 @@ a.img-link:hover {
 
 @media (max-height: 719.98px) and (orientation: landscape) {
   .demo-lists {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
   }
 }
 .demo-lists__body {
@@ -9963,6 +9977,7 @@ a.img-link:hover {
 @media (max-height: 899.98px) {
   .demo-lists__linck {
     margin-bottom: 5px;
+    font-size: 12px;
   }
 }
 
