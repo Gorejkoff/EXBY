@@ -9534,6 +9534,7 @@ a.img-link:hover {
 .roadmap {
   overflow: hidden;
   margin-top: 50px;
+  padding-bottom: 10px;
 }
 
 .roadmap__body {
@@ -9580,15 +9581,18 @@ a.img-link:hover {
 
 .roadmap__left-in-item {
   padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2px;
   height: 100px;
   font-size: 14px;
+  text-align: center;
+  line-height: 130%;
   color: #A2A3B9;
   background-color: #0D0323;
 }
@@ -9602,6 +9606,10 @@ a.img-link:hover {
   height: 100%;
   overflow: auto;
   cursor: url("../img/roadmap/roadmap_cursor.svg") 40 40, auto;
+}
+
+.roadmap__right:active {
+  cursor: url("../img/roadmap/roadmap_cursor-active.svg") 40 40, auto;
 }
 
 .roadmap__right::-webkit-scrollbar {
@@ -9650,6 +9658,8 @@ a.img-link:hover {
 }
 
 .roadmap__bottom {
+  position: relative;
+  z-index: 6;
   height: 65px;
   margin-top: -15px;
   overflow: hidden;
@@ -9792,6 +9802,42 @@ a.img-link:hover {
 
 .roadmap__card.card_length-3 {
   max-width: 447px;
+}
+
+.roadmap__card.card_length-4 {
+  width: 610px;
+}
+
+.roadmap__card.card_length-5 {
+  width: 770px;
+}
+
+.roadmap__card.card_length-6 {
+  width: 930px;
+}
+
+.roadmap__card.card_length-7 {
+  width: 1090px;
+}
+
+.roadmap__card.card_length-8 {
+  width: 1250px;
+}
+
+.roadmap__card.card_length-9 {
+  width: 1410px;
+}
+
+.roadmap__card.card_length-10 {
+  width: 1570px;
+}
+
+.roadmap__card.card_length-11 {
+  width: 1730px;
+}
+
+.roadmap__card.card_length-12 {
+  width: 1890px;
 }
 
 .roadmap__card.card_blue {
@@ -11973,6 +12019,22 @@ canvas {
     gap: 3.8842975207vw;
   }
 
+  .roadmap__border {
+    width: 100%;
+  }
+
+  .roadmap__left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80px;
+            flex: 0 0 80px;
+  }
+
+  .roadmap__bottom-in-lists {
+    -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+
   .blog {
     margin: 5.785% 0px;
   }
@@ -13473,6 +13535,16 @@ canvas {
     display: block;
   }
 
+  .roadmap__left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 40px;
+            flex: 1 0 40px;
+  }
+
+  .roadmap__left-in-item {
+    font-size: 12px;
+  }
+
   .blog__stories-title {
     font-size: 40px;
   }
@@ -13576,6 +13648,24 @@ canvas {
 @media (max-width: 766px) {
   .use-cookies__button {
     min-width: 80px;
+  }
+}
+
+@media (max-width: 766.98px) or (max-height: 720px) {
+  .roadmap__top {
+    height: calc(100% - 35px);
+  }
+
+  .roadmap__bottom {
+    max-height: 50px;
+  }
+
+  .roadmap__bottom-in {
+    height: 35px;
+  }
+
+  .roadmap__bottom-in-item {
+    font-size: 12px;
   }
 }
 
@@ -14006,6 +14096,12 @@ canvas {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
+  }
+}
+
+@media (max-height: 720px) {
+  .roadmap__border {
+    height: 80vh;
   }
 }
 
