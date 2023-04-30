@@ -3945,9 +3945,10 @@ body.burger_active .header {
 }
 @media (max-width: 766.98px) {
   .statistics__element-shell {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: end !important;
     padding: 14px 10px;
   }
 }
@@ -4066,7 +4067,7 @@ body.burger_active .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 25px;
+  height: 25px;
   border: 1px solid #250C5A;
   border-radius: 5px;
   margin: 13px 0;
@@ -4192,7 +4193,7 @@ body.burger_active .header {
 }
 .statistics .slick-slide {
   min-height: 280px;
-  transition: all 1s ease 0s;
+  transition: opacity 1s;
 }
 @media (max-width: 766.98px) {
   .statistics .slick-slide {
@@ -4336,30 +4337,38 @@ body.burger_active .header {
   white-space: nowrap;
   overflow: hidden;
   color: #1a083e;
+  will-change: transform;
 }
-.mobile__line-1 {
-  animation: line-1 linear 65s infinite;
+@media (max-width: 440px) {
+  .mobile__line {
+    display: none;
+  }
 }
-.mobile__line-2 {
-  animation: line-2 linear 85s infinite;
-}
-.mobile__line-3 {
-  animation: line-3 linear 55s infinite;
-}
-.mobile__line-4 {
-  animation: line-4 linear 25s infinite;
-}
-.mobile__line-5 {
-  animation: line-5 linear 45s infinite;
-}
-.mobile__line-6 {
-  animation: line-6 linear 80s infinite;
-}
-.mobile__line-7 {
-  animation: line-7 linear 450s infinite;
-}
-.mobile__line-8 {
-  animation: line-8 linear 70s infinite;
+@media (min-width: 440px) {
+  .mobile__line-1 {
+    animation: line-1 linear 80s infinite;
+  }
+  .mobile__line-2 {
+    animation: line-2 linear 85s infinite;
+  }
+  .mobile__line-3 {
+    animation: line-1 linear 45s infinite;
+  }
+  .mobile__line-4 {
+    animation: line-2 linear 25s infinite;
+  }
+  .mobile__line-5 {
+    animation: line-1 linear 40s infinite;
+  }
+  .mobile__line-6 {
+    animation: line-1 linear 80s infinite;
+  }
+  .mobile__line-7 {
+    animation: line-2 linear 45s infinite;
+  }
+  .mobile__line-8 {
+    animation: line-1 linear 70s infinite;
+  }
 }
 
 @keyframes line-1 {
@@ -4372,36 +4381,41 @@ body.burger_active .header {
     transform: translate(-100vw, 0);
   }
 }
-@keyframes line-3 {
-  100% {
-    transform: translate(100vw, 0);
-  }
-}
+/* @keyframes line-3 {
+   100% {
+      transform: translate(100vw, 0);
+   }
+} 
+
 @keyframes line-4 {
-  100% {
-    transform: translate(-100vw, 0);
-  }
-}
+   100% {
+      transform: translate(-100vw, 0);
+   }
+} 
+
 @keyframes line-5 {
-  100% {
-    transform: translate(100vw, 0);
-  }
+   100% {
+      transform: translate(100vw, 0);
+   }
 }
+
 @keyframes line-6 {
-  100% {
-    transform: translate(100vw, 0);
-  }
-}
+   100% {
+      transform: translate(100vw, 0);
+   }
+} 
+
 @keyframes line-7 {
-  100% {
-    transform: translate(-100vw, 0);
-  }
-}
+   100% {
+      transform: translate(-100vw, 0);
+   }
+} 
+
 @keyframes line-8 {
-  100% {
-    transform: translate(100vw, 0);
-  }
-}
+   100% {
+      transform: translate(100vw, 0);
+   }
+} */
 .joinourcommuniti {
   position: relative;
   /*  height: 194px; */
@@ -6892,7 +6906,7 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 }
 .pcoduct-top__button {
   display: inline-block;
-  width: 177px;
+  min-width: 177px;
   border-radius: 23px;
   min-height: 45px;
   background-color: #7027F0;
@@ -7230,6 +7244,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   min-height: 256px;
   backdrop-filter: blur(2px);
 }
+@media (max-height: 900px) {
+  .pricing-exby__left-top {
+    min-height: 180px;
+    padding: 20px 15px;
+  }
+}
 .pricing-exby__left-title {
   margin-bottom: 29px;
   font-size: 40px;
@@ -7240,6 +7260,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
 @media (max-width: 991.98px) {
   .pricing-exby__left-title {
     font-size: 30px;
+  }
+}
+@media (max-height: 900px) {
+  .pricing-exby__left-title {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
 }
 .pricing-exby__left-subtitle {
@@ -7258,6 +7284,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   margin-bottom: 5px;
   min-height: 62px;
   background-color: #15161C;
+}
+@media (max-height: 900px) {
+  .pricing-exby__left-item {
+    padding: 5px 30px;
+    min-height: 42px;
+  }
 }
 .pricing-exby__left-item-text {
   flex: 1 1 auto;
@@ -7387,10 +7419,21 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   text-transform: uppercase;
   background: linear-gradient(160deg, #53FDA9, #7027F0);
 }
+@media (max-height: 900px) {
+  .pricing-exby__center-header {
+    padding: 8px;
+  }
+}
 .pricing-exby__center-top {
   padding: 13px 30px;
   min-height: 256px;
   background-color: #7034F0;
+}
+@media (max-height: 900px) {
+  .pricing-exby__center-top {
+    min-height: 180px;
+    padding: 5px 30px;
+  }
 }
 .pricing-exby__center-title {
   margin-bottom: 10px;
@@ -7405,6 +7448,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
     font-size: 30px;
   }
 }
+@media (max-height: 900px) {
+  .pricing-exby__center-title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}
 .pricing-exby__center-discount {
   margin-bottom: 10px;
   display: flex;
@@ -7416,6 +7465,11 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   font-size: 40px;
   color: #7CE2A5;
   font-weight: 600;
+}
+@media (max-height: 900px) {
+  .pricing-exby__center-discount-namber {
+    font-size: 35px;
+  }
 }
 .pricing-exby__center-discount-text {
   font-size: 14px;
@@ -7448,6 +7502,11 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   color: #ffffff;
   text-align: center;
 }
+@media (max-height: 900px) {
+  .pricing-exby__center-text {
+    margin-bottom: 5px;
+  }
+}
 .pricing-exby__center-button {
   display: block;
   padding: 10px;
@@ -7458,6 +7517,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   text-align: center;
   background-color: #7CE2A5;
   border-radius: 23px;
+}
+@media (max-height: 900px) {
+  .pricing-exby__center-button {
+    min-height: 35px;
+    padding: 5px;
+  }
 }
 .pricing-exby__center-points {
   padding: 20px 0px;
@@ -7474,6 +7539,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   background-color: #8451F2;
   border-top: 1px solid rgba(255, 255, 255, 0.1921568627);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1921568627);
+}
+@media (max-height: 900px) {
+  .pricing-exby__center-item {
+    min-height: 42px;
+    padding: 10px 20px;
+  }
 }
 .pricing-exby__center-item-text {
   font-size: 20px;
@@ -7499,13 +7570,18 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   background-color: rgba(19, 21, 30, 0.801);
   backdrop-filter: blur(2px);
 }
+@media (max-height: 900px) {
+  .pricing-exby__right-top {
+    padding: 20px;
+  }
+}
 .pricing-exby__right-title {
   margin-bottom: 10px;
   font-size: 45px;
   font-weight: 700;
   color: #ffffff;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 991.98px) or (max-height: 900px) {
   .pricing-exby__right-title {
     font-size: 30px;
   }
@@ -7531,6 +7607,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   min-height: 62px;
   background-color: #15161C;
 }
+@media (max-height: 900px) {
+  .pricing-exby__right-item {
+    min-height: 42px;
+    padding: 6px 30px;
+  }
+}
 .pricing-exby__right-text {
   color: #ffffff;
 }
@@ -7543,6 +7625,12 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   margin-bottom: 5px;
   min-height: 62px;
   background-color: #1C1E25;
+}
+@media (max-height: 900px) {
+  .pricing-exby__right-item-check {
+    min-height: 42px;
+    padding: 6px 30px;
+  }
 }
 .pricing-exby__right-icon-check {
   color: #ffffff;
@@ -7574,6 +7662,11 @@ body._touch .faq-general__information-item.faq-general__information-text-visible
   height: 45px;
   border-radius: 23px;
   background-color: #7CE2A5;
+}
+@media (max-height: 900px) {
+  .pricing-exby__green::before {
+    height: 35px;
+  }
 }
 
 .pcoduct-top__content.documents_style {
