@@ -3948,7 +3948,7 @@ body.burger_active .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end !important;
+    align-items: end;
     padding: 14px 10px;
   }
 }
@@ -4028,6 +4028,11 @@ body.burger_active .header {
 @media (max-width: 766.98px) {
   .statistics__element-top-left {
     align-items: start !important;
+  }
+}
+@media (max-width: 766.98px) {
+  .statistics__element-top-right {
+    align-items: end !important;
   }
 }
 .statistics__element-name {
