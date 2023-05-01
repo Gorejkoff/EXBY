@@ -4302,7 +4302,6 @@ body.burger_active .header {
 .slick-prev,
 .slick-next {
   font-size: 0;
-  display: none;
 }
 
 .bot {
