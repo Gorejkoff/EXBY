@@ -4217,11 +4217,6 @@ body.burger_active .header {
   color: #68738D;
 }
 
-.statistic__circle {
-  -webkit-animation: statistic__circl 2s infinite calc(var(--t) * 0.4s);
-          animation: statistic__circl 2s infinite calc(var(--t) * 0.4s);
-}
-
 @-webkit-keyframes statistic__circl {
   0% {
     stroke-opacity: 0.4;
@@ -10965,48 +10960,6 @@ canvas {
   border-color: #996DFF;
 }
 
-@media (min-width: 440px) {
-  .mobile__line-1 {
-    -webkit-animation: line-1 linear 80s infinite;
-            animation: line-1 linear 80s infinite;
-  }
-
-  .mobile__line-2 {
-    -webkit-animation: line-2 linear 85s infinite;
-            animation: line-2 linear 85s infinite;
-  }
-
-  .mobile__line-3 {
-    -webkit-animation: line-1 linear 45s infinite;
-            animation: line-1 linear 45s infinite;
-  }
-
-  .mobile__line-4 {
-    -webkit-animation: line-2 linear 25s infinite;
-            animation: line-2 linear 25s infinite;
-  }
-
-  .mobile__line-5 {
-    -webkit-animation: line-1 linear 40s infinite;
-            animation: line-1 linear 40s infinite;
-  }
-
-  .mobile__line-6 {
-    -webkit-animation: line-1 linear 80s infinite;
-            animation: line-1 linear 80s infinite;
-  }
-
-  .mobile__line-7 {
-    -webkit-animation: line-2 linear 45s infinite;
-            animation: line-2 linear 45s infinite;
-  }
-
-  .mobile__line-8 {
-    -webkit-animation: line-1 linear 70s infinite;
-            animation: line-1 linear 70s infinite;
-  }
-}
-
 @media (min-width: 766.98px) {
   .header__language-menu {
     top: 20px;
@@ -11059,6 +11012,11 @@ canvas {
     min-height: 280px;
   }
 
+  .statistic__circle {
+    -webkit-animation: statistic__circl 2s infinite calc(var(--t) * 0.4s);
+            animation: statistic__circl 2s infinite calc(var(--t) * 0.4s);
+  }
+
   .statistics .slick-slider {
     position: relative;
     z-index: 10;
@@ -11071,6 +11029,46 @@ canvas {
     display: -ms-flexbox;
     display: flex;
     min-width: 0;
+  }
+
+  .mobile__line-1 {
+    -webkit-animation: line-1 linear 80s infinite;
+            animation: line-1 linear 80s infinite;
+  }
+
+  .mobile__line-2 {
+    -webkit-animation: line-2 linear 85s infinite;
+            animation: line-2 linear 85s infinite;
+  }
+
+  .mobile__line-3 {
+    -webkit-animation: line-1 linear 45s infinite;
+            animation: line-1 linear 45s infinite;
+  }
+
+  .mobile__line-4 {
+    -webkit-animation: line-2 linear 25s infinite;
+            animation: line-2 linear 25s infinite;
+  }
+
+  .mobile__line-5 {
+    -webkit-animation: line-1 linear 40s infinite;
+            animation: line-1 linear 40s infinite;
+  }
+
+  .mobile__line-6 {
+    -webkit-animation: line-1 linear 80s infinite;
+            animation: line-1 linear 80s infinite;
+  }
+
+  .mobile__line-7 {
+    -webkit-animation: line-2 linear 45s infinite;
+            animation: line-2 linear 45s infinite;
+  }
+
+  .mobile__line-8 {
+    -webkit-animation: line-1 linear 70s infinite;
+            animation: line-1 linear 70s infinite;
   }
 
   .faq-in__menu {
@@ -12842,6 +12840,12 @@ canvas {
     padding-bottom: 50%;
   }
 
+  .screen__center-blur,
+  .screen__violet-blur,
+  .screen__green-blur {
+    display: none;
+  }
+
   .best__title {
     font-size: 12px;
     margin-bottom: 15px;
@@ -13064,6 +13068,10 @@ canvas {
     content: "";
     background: -o-radial-gradient(rgba(13, 3, 35, 0), rgba(13, 3, 35, 0) 50%, #0d0323 70%);
     background: radial-gradient(rgba(13, 3, 35, 0), rgba(13, 3, 35, 0) 50%, #0d0323 70%);
+  }
+
+  .mobile__line {
+    display: none;
   }
 
   .exby-mission__title h1 {
@@ -13970,10 +13978,6 @@ canvas {
 }
 
 @media (max-width: 440px) {
-  .mobile__line {
-    display: none;
-  }
-
   .cryptohopper__line {
     left: 90px;
   }
