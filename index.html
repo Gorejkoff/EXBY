@@ -4,7 +4,7 @@
    <title>"EXBY"</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <meta name="viewport" content="width=device-width" initial-scale=1.0>
-   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230502145855">
 </head>
 
 <body>
@@ -14,20 +14,18 @@
       <div class="header__body">
 
          <button class="header__burger header__burger-notactive" type="button">
+            <span>
+               <div class="header__burger-background"></div>
 
-            <div class="header__burger-background"></div>
-
-            <div class="header__burger-shell">
-               <div class="header__line header__line-1"></div>
-               <div class="header__line header__line-2"></div>
-               <div class="header__line header__line-3"></div>
-            </div>
+               <div class="header__burger-shell">
+                  <div class="header__line header__line-1"></div>
+                  <div class="header__line header__line-2"></div>
+                  <div class="header__line header__line-3"></div>
+               </div>
+            </span>
          </button>
 
-
-
          <div class="header__body-menu-background"></div>
-
 
          <div class="header__left">
             <div class="header__logo"><a href="index.html"><img src="img/logo/logo.svg" alt="Логотип EXBY"></a></div>
@@ -243,9 +241,8 @@
 
          <div class="header__right">
             <div class="header__right-login ">
-               <a href="sign_in.html" type="button ">
+               <a href="sign_in.html">
                   <div class="header__paragraph  header__paragraph-login ">
-
                      <span class="header__right-login-text-shell">
                         <span class="header__right-login-text-container">
                            <span class="header__key">
@@ -255,20 +252,14 @@
                            </span>
                            <span class="header__login hover-6">Login</span>
                         </span>
-
+                     </span>
                   </div>
                </a>
             </div>
             <div class="header__right-sing btn-animation-violet">
-               <a href="sign_up.html" type="button"><span>Sign up</span></a>
+               <a href="sign_up.html"><span>Sign up</span></a>
             </div>
          </div>
-
-
-
-
-
-
       </div>
    </div>
 </header>
@@ -298,32 +289,29 @@
 </section>
       <section class="cookie">
 
-
    <div class="cookie__body">
-
 
       <div class="cookie__title">Cookies on exby</div>
       <p class="cookie__text">Exby uses cookies to ensure that the website works well, to analyze usage of the website and for marketing purposes. Cookies may be placed by third parties.</p>
       <p class="cookie__text">Please select the type of cookies you would like to opt-in for:</p>
 
-
       <form class="cookie__form" action="#" method="post" name="form__cooki" id="cookie">
          <label class="cookie__lebel">
             <input class="cookie__input" type="checkbox" name="cookie" value="yes">
-            <div class="cookie__check"></div>
-            <div class="cookie__form-content"><span class="cookie__form-title">Functional</span><span class="cookie__form-text">- This category of cookies is needed to ensure the website works well.</span></div>
+            <span class="cookie__check"></span>
+            <span class="cookie__form-content"><span class="cookie__form-title">Functional</span><span class="cookie__form-text">- This category of cookies is needed to ensure the website works well.</span></span>
          </label>
 
          <label class="cookie__lebel">
             <input class="cookie__input" type="checkbox" name="cookie" value="yes">
-            <div class="cookie__check"></div>
-            <div class="cookie__form-content"><span class="cookie__form-title">Analytics</span><span class="cookie__form-text">- These cookies are needed to see how users use our website and how we can improve the website.</span></div>
+            <span class="cookie__check"></span>
+            <span class="cookie__form-content"><span class="cookie__form-title">Analytics</span><span class="cookie__form-text">- These cookies are needed to see how users use our website and how we can improve the website.</span></span>
          </label>
 
          <label class="cookie__lebel">
             <input class="cookie__input" type="checkbox" name="cookie" value="yes">
-            <div class="cookie__check"></div>
-            <div class="cookie__form-content"><span class="cookie__form-title">Marketing</span><span class="cookie__form-text"> - We need these cookies to see how our advertisement campaigns are performing, and to improve our ad campaigns.</span></div>
+            <span class="cookie__check"></span>
+            <span class="cookie__form-content"><span class="cookie__form-title">Marketing</span><span class="cookie__form-text"> - We need these cookies to see how our advertisement campaigns are performing, and to improve our ad campaigns.</span></span>
          </label>
       </form>
 
@@ -380,7 +368,7 @@
       <div class="screen__body">
 
          <div class="screen__block">
-            <img src="img/pictures/screenshot__1.png" alt="img">
+            <picture><source srcset="img/pictures/screenshot__1.webp" type="image/webp"><img src="img/pictures/screenshot__1.png" alt="img"></picture>
 
             <div class="flash__body">
                <div class="flash-item"></div>
@@ -445,11 +433,11 @@
 
       <div class="blogarticles__block observer slider__blog">
 
-         <a href="error_404.html" class="blogarticles__articles">
+         <div class="blogarticles__articles">
             <div class="blogarticles__articles-border">
                <div class="blogarticles__articles-img">
-                  <img src="img/blog__articles/Rectangle__1.png" alt="img">
-                  <div class="blogarticles__articles-read btn-animation-violet"><button type="button">Read More</button></div>
+                  <picture><source srcset="img/blog__articles/Rectangle__1.webp" type="image/webp"><img src="img/blog__articles/Rectangle__1.png" alt="img"></picture>
+                  <div class="blogarticles__articles-read btn-animation-violet"><a href="error_404.html">Read More</a></div>
                </div>
                <div class="blogarticles__articles-block">
                   <div class="blogarticles__articles-date">June 16, 2022</div>
@@ -457,14 +445,14 @@
                   <div class="blogarticles__articles-subtext">Lectus faucibus adipiscing condimentum orci aliquam purus convallis massa</div>
                </div>
             </div>
-         </a>
+         </div>
 
 
-         <a href="error_500.html" class="blogarticles__articles">
+         <div class="blogarticles__articles">
             <div class="blogarticles__articles-border">
                <div class="blogarticles__articles-img">
-                  <img src="img/blog__articles/Rectangle__2.png" alt="img">
-                  <div class="blogarticles__articles-read btn-animation-violet"><button type="button">Read More</button></div>
+                  <picture><source srcset="img/blog__articles/Rectangle__2.webp" type="image/webp"><img src="img/blog__articles/Rectangle__2.png" alt="img"></picture>
+                  <div class="blogarticles__articles-read btn-animation-violet"><a href="error_500.html">Read More</a></div>
                </div>
                <div class="blogarticles__articles-block">
                   <div class="blogarticles__articles-date">June 16, 2022</div>
@@ -472,13 +460,13 @@
                   <div class="blogarticles__articles-subtext">Nulla non tellus fames imperdiet. Arcu sollicitudin urna sit orci dictumst blandit.</div>
                </div>
             </div>
-         </a>
+         </div>
 
-         <a href="error_503.html" class="blogarticles__articles">
+         <div class="blogarticles__articles">
             <div class="blogarticles__articles-border">
                <div class="blogarticles__articles-img">
-                  <img src="img/blog__articles/Rectangle__3.png" alt="img">
-                  <div class="blogarticles__articles-read btn-animation-violet"><button type="button">Read More</button></div>
+                  <picture><source srcset="img/blog__articles/Rectangle__3.webp" type="image/webp"><img src="img/blog__articles/Rectangle__3.png" alt="img"></picture>
+                  <div class="blogarticles__articles-read btn-animation-violet"><a href="error_503.html">Read More</a></div>
                </div>
                <div class="blogarticles__articles-block">
                   <div class="blogarticles__articles-date">June 16, 2022</div>
@@ -486,13 +474,13 @@
                   <div class="blogarticles__articles-subtext">Iaculis at risus in tincidunt posuere maecenas. Egestas nunc vitae purus gravida integer </div>
                </div>
             </div>
-         </a>
+         </div>
 
-         <a href="demo.html" class="blogarticles__articles">
+         <div class="blogarticles__articles">
             <div class="blogarticles__articles-border">
                <div class="blogarticles__articles-img">
-                  <img src="img/blog__articles/Rectangle__4.png" alt="img">
-                  <div class="blogarticles__articles-read btn-animation-violet"><button type="button">Read More</button></div>
+                  <picture><source srcset="img/blog__articles/Rectangle__4.webp" type="image/webp"><img src="img/blog__articles/Rectangle__4.png" alt="img"></picture>
+                  <div class="blogarticles__articles-read btn-animation-violet"><a href="#">Read More</a></div>
                </div>
                <div class="blogarticles__articles-block">
                   <div class="blogarticles__articles-date">June 16, 2022</div>
@@ -500,7 +488,7 @@
                   <div class="blogarticles__articles-subtext">Elit magna integer vivamus mollis morbi fusce rutrum. Facilisis lobortis facilisi urna </div>
                </div>
             </div>
-         </a>
+         </div>
 
 
       </div>
@@ -1324,7 +1312,7 @@
                         <button class="trading-simulator__strategy-menu-button-in" type="button"><span>Choose</span><img src="img/trading_simulator/Icon__arrow-simulator.svg" alt="img"></button>
                      </div>
 
-                     <div class="trading-simulator__strategy-menu-button-active">Valr <=> Kraken</div>
+                     <div class="trading-simulator__strategy-menu-button-active">Valr &lt=> Kraken</div>
 
 
                      <!-- manu -->
@@ -1661,7 +1649,7 @@
       <div class="trading-simulator__schedule observer">
 
          <div class="trading-simulator__schedule-image">
-            <img class="trading-simulator__schedule-image-schedule" src="img/trading_simulator/schedule__simulator.png" alt="img">
+            <picture><source srcset="img/trading_simulator/schedule__simulator.webp" type="image/webp"><img class="trading-simulator__schedule-image-schedule" src="img/trading_simulator/schedule__simulator.png" alt="img"></picture>
          </div>
 
          <div class="trading-simulator__step">
@@ -4871,7 +4859,7 @@
       <div class="mobile__block">
 
          <div class="mobile__image">
-            <img src="img/use_mobile/mobile-2x.png" alt="img">
+            <picture><source srcset="img/use_mobile/mobile-2x.webp" type="image/webp"><img src="img/use_mobile/mobile-2x.png" alt="img"></picture>
          </div>
          <div class="mobile__text">Use our mobile version of the site for quick and convenient use of all your crypto assets</div>
 
@@ -4927,19 +4915,19 @@
          </div>
       </div>
       <div class="joinourcommuniti__band">
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
-         <span><img src="img/join_our_communi/join our community __.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
+         <span><img src="img/join_our_communi/join_our_community__.svg" alt="img"></span>
       </div>
       <!-- <div class="joinourcommuniti__share"><img src="img/join_our_communi/Combined-Shape.svg" alt="img"></div> -->
 
@@ -4972,7 +4960,7 @@
 
                      <div class="footer__subscribe-check">
                         <label class="footer__subscribe-square">
-                           <div class="footer__subscribe-checked"></div>
+                           <span class="footer__subscribe-checked"></span>
                            <input class="footer__subscribe-checked-input" type="checkbox" name="agree" value="agree">
                            <img class="footer__subscribe-icon__check" src="img/footer__image/Icon__check.svg" alt="img">
                         </label>
@@ -5094,8 +5082,8 @@
    </div>
 </footer>
    </div>
-   <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-   <script src="js/app.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230502145855"></script>
+   <script src="js/app.min.js?_v=20230502145855"></script>
 
 </body>
 
