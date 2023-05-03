@@ -1,27 +1,25 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
    <title>"ERROR 503"</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <meta name="viewport" content="width=device-width" initial-scale=1.0>
-   <link rel="stylesheet" href="css/style.min.css?_v=20230502145855">
+   <!--    <link rel="stylesheet" href="css/style.min.css?_v=20230503122751"> -->
+   <link rel="stylesheet" href="css/style.min.css?_v=20230503122751" media="print" onload="this.media='all'; this.onload=null;">
 </head>
 
 <body>
    <div class="wrapper error-subsribe-off">
       <header class="header">
    <div class="header__container">
-      <div class="header__body">
+      <article class="header__body">
 
          <button class="header__burger header__burger-notactive" type="button">
-            <span>
-               <div class="header__burger-background"></div>
-
-               <div class="header__burger-shell">
-                  <div class="header__line header__line-1"></div>
-                  <div class="header__line header__line-2"></div>
-                  <div class="header__line header__line-3"></div>
-               </div>
+            <span class="header__burger-background"></span>
+            <span class="header__burger-shell">
+               <span class="header__line header__line-1"></span>
+               <span class="header__line header__line-2"></span>
+               <span class="header__line header__line-3"></span>
             </span>
          </button>
 
@@ -31,7 +29,7 @@
             <div class="header__logo"><a href="index.html"><img src="img/logo/logo.svg" alt="Логотип EXBY"></a></div>
             <div class="header__language header__menu-open">
                <button class="header__language-button header__language-button-top" type="button">
-                  <div class="header__paragraph">
+                  <span class="header__paragraph">
                      <span class="header__language-text-container">
                         <span class="header_text-hidden hover-6" style="--i:5;" id="language">English</span>
                         <span class="header__menu-arrow">
@@ -40,7 +38,7 @@
                            </svg>
                         </span>
                      </span>
-                  </div>
+                  </span>
                </button>
 
                <!-- menu language -->
@@ -73,16 +71,15 @@
 
                   <li class="header__list header__menu-open header__menu-open-center">
                      <button type="button">
-                        <div class="header__paragraph">
+                        <span class="header__paragraph">
                            <span class="header_text-hidden hover-6" style="--i:2;">Company</span>
                            <span class="header__menu-arrow" style="--i:2;">
                               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.08659 0.333252C3.40659 0.333252 0.419922 3.31992 0.419922 6.99992C0.419922 10.6799 3.40659 13.6666 7.08659 13.6666C10.7666 13.6666 13.7533 10.6799 13.7533 6.99992C13.7533 3.31992 10.7666 0.333252 7.08659 0.333252ZM6.85326 8.76659L4.99325 6.90659C4.77992 6.69325 4.92659 6.33325 5.22659 6.33325H8.95326C9.25326 6.33325 9.39992 6.69325 9.18659 6.89992L7.32659 8.75992C7.19325 8.89325 6.97992 8.89325 6.85326 8.76659Z" fill="#A2A3B9" />
                               </svg>
                            </span>
-                        </div>
+                        </span>
                      </button>
-
 
 
                      <!--  menu Company  -->
@@ -155,14 +152,14 @@
 
                   <li class="header__list header__menu-open header__menu-open-center">
                      <button type="button">
-                        <div class="header__paragraph">
+                        <span class="header__paragraph">
                            <span class="header_text-hidden hover-6" style="--i:3;">Platform</span>
                            <span class="header__menu-arrow  header_text-hidden" style="--i:3;">
                               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.08659 0.333252C3.40659 0.333252 0.419922 3.31992 0.419922 6.99992C0.419922 10.6799 3.40659 13.6666 7.08659 13.6666C10.7666 13.6666 13.7533 10.6799 13.7533 6.99992C13.7533 3.31992 10.7666 0.333252 7.08659 0.333252ZM6.85326 8.76659L4.99325 6.90659C4.77992 6.69325 4.92659 6.33325 5.22659 6.33325H8.95326C9.25326 6.33325 9.39992 6.69325 9.18659 6.89992L7.32659 8.75992C7.19325 8.89325 6.97992 8.89325 6.85326 8.76659Z" fill="#A2A3B9" />
                               </svg>
                            </span>
-                        </div>
+                        </span>
                      </button>
                      <!--  menu Platform  -->
                      <div class="header__element-menu">
@@ -260,7 +257,7 @@
                <a href="sign_up.html"><span>Sign up</span></a>
             </div>
          </div>
-      </div>
+      </article>
    </div>
 </header>
       <main>
@@ -328,7 +325,7 @@
 
                      <div class="footer__subscribe-block">
                         <div class="footer__subscribe-block-gradient">
-                           <input class="footer__subscribe-input" placeholder="Enter email address" type="text" name="subscribe" autocomplete="no">
+                           <input class="footer__subscribe-input" placeholder="Enter email address" type="text" name="subscribe" autocomplete="off">
                            <span class="footer__subscrib-button btn-animation-violet"><button type="submit">Subscribe</button></span>
                         </div>
                      </div>
@@ -348,15 +345,13 @@
          </div>
       </div>
 
-
-
       <div class="footer__menu">
          <div class="footer__logo">
-            <div class="footer__logo-logo"><img src="img/logo/logo.svg" alt="img"></div>
+            <div class="footer__logo-logo"><img src="img/logo/logo.svg" alt="логотип EXBY"></div>
             <div class="footer__logo-text">Automate your bitcoin and altcoin trading on popular exchanges</div>
          </div>
          <div class="footer__menu-lists">
-            <!-- <div class="footer__menu-list-block"> -->
+
             <div class="footer__menu-column">
                <div class="footer__menu-column-title">Platform</div>
                <ul class="footer__menu-column-list">
@@ -405,28 +400,24 @@
                </ul>
             </div>
 
-            <!-- </div> -->
-
          </div>
       </div>
-
 
       <div class="footer__copyright">
          <div class="footer__copyright-info">Exby is a trademark or registered trademark of Exby, Inc. Any other trademarks are the property of their respective owners. Unless otherwise, noted, use of third party logos does not imply endorsement of, sponsorship of, or affiliation with Exby.</div>
          <div class="footer__copyright-block">
             <div class="footer__copyright-text">Copyright © 2022 Exby Inc. All rights reserved.</div>
-
             <div class="footer__language">
                <div class="header__language header__language-bottom header__menu-open ">
                   <button class="header__language-button header__language-button-bottom" type="button">
-                     <div class="header__paragraph">
+                     <span class="header__paragraph">
                         <span class="header_text-language header_text-language-2 hover-6" style="--i:5;" id="language-2">English</span>
                         <span class="header__menu-arrow">
                            <svg class="header__left-svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M7.08659 0.333252C3.40659 0.333252 0.419922 3.31992 0.419922 6.99992C0.419922 10.6799 3.40659 13.6666 7.08659 13.6666C10.7666 13.6666 13.7533 10.6799 13.7533 6.99992C13.7533 3.31992 10.7666 0.333252 7.08659 0.333252ZM6.85326 8.76659L4.99325 6.90659C4.77992 6.69325 4.92659 6.33325 5.22659 6.33325H8.95326C9.25326 6.33325 9.39992 6.69325 9.18659 6.89992L7.32659 8.75992C7.19325 8.89325 6.97992 8.89325 6.85326 8.76659Z" fill="#A2A3B9" />
                            </svg>
                         </span>
-                     </div>
+                     </span>
                   </button>
 
                   <!-- menu language -->
@@ -446,19 +437,13 @@
                </div>
             </div>
          </div>
-
       </div>
-
-
-
-
-
 
    </div>
 </footer>
    </div>
-   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230502145855"></script>
-   <script src="js/app.min.js?_v=20230502145855"></script>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230503122751"></script>
+   <script src="js/app.min.js?_v=20230503122751"></script>
 
 </body>
 
